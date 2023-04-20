@@ -42,33 +42,43 @@
         </nav>
     </header>
     <section class="consultac">
-        <section class="consultac1">
+        <div class="consultac1">
             <h1 class="tituloc">Ingrese su consulta</h1>  
             <ul>
                 <li class="input-group">
-                    <span class="input-group-text">First and last name</span>
-                    <input type="text" aria-label="First name" class="form-control">
-                    <input type="text" aria-label="Last name" class="form-control">
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">&#128100</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
                 </li>
                 <li>
-                    <input type="text" placeholder="Dirección Email">
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">	&#9993;</span>
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping">
+                    </div>
                 </li>
                 <li>
-                    <input type="text" placeholder="Número Celular">
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">&#128222;</span>
+                        <input type="text" class="form-control" placeholder="Número de telefono" aria-label="Número de telefono" aria-describedby="addon-wrapping">
+                    </div>
                 </li>
                 <li>
-                    <input type="text" placeholder="Consulta...">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+                        <label for="floatingTextarea2">Comentario</label>
+                    </div>
                 </li>
                 <li>
-                    <button>Enviar</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </li>
             </ul>
-        </section>
-        <section class="consultac2">
+        </div>
+        <div class="consultac2">
             <h2 class="tituloc">Donde encontrarnos</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7962.554896384459!2d-60.669178355422794!3d-32.955182386827616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab6f11537faf%3A0xa99bea6006b75b6a!2sEstadio%20Coloso%20Del%20Parque%20Marcelo%20Bielsa!5e0!3m2!1ses!2sar!4v1680046919146!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7962.554896384459!2d-60.669178355422794!3d-32.955182386827616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab6f11537faf%3A0xa99bea6006b75b6a!2sEstadio%20Coloso%20Del%20Parque%20Marcelo%20Bielsa!5e0!3m2!1ses!2sar!4v1680046919146!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 
-        </section>
+        </div>
     </section>
     <section>
         <ul class = "Con" >
