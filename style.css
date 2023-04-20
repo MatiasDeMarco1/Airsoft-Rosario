@@ -88,6 +88,13 @@ ul {
     display: flex;
     justify-content: center;
 }
+.logoc {
+    width: 180px;
+}
+.logoc1 {
+    display: flex;
+    justify-content: center;
+}
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Presentacion de imagenes >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .carru{
@@ -206,12 +213,30 @@ ul {
 }
 
 .redes-sociales{
+    text-decoration: none;
+    color: white;
     text-align: center;
 }
 .redes-sociales li  {
     margin-top: 90px;
     display: inline-block;
 }
+.redes-grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 60% 30%;
+}
+.redes-grid a {
+    font-family:'Roboto Condensed', sans-serif ;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+.redes-sociales-contacto {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Footer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .legal{
@@ -271,7 +296,7 @@ ul {
     margin-top: 80px;
 }
 .consultac1 ul li {
-    margin-top: 10px;
+    margin-top: 40px;
 
 }
 
