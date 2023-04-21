@@ -125,10 +125,10 @@ ul {
     display: flex;
     justify-content: center;
 }
-.juangay {
-    width: 40%;
+.juangaym {
+    width: 80%;
 }
-.juangay img {
+.juangaym img {
     width: 550px;
     height: 600px;
 }
@@ -145,6 +145,10 @@ ul {
 }
 .marcas ul li {
     margin-top: 100px;
+}
+.marcas ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Seccion productos >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -318,4 +322,35 @@ ul {
     margin-top: 40px;
 
 }
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* Categorias >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.categorias {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 60% 30%;
+}
+.categorias ul {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.categorias ul li{
+    color: white;
+    font-family:'Roboto Condensed', sans-serif ;
+    font-size: 20px;
+}
+.categorias select {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 15%;
+    font-family:'Roboto Condensed', sans-serif ;
+}
+.logop {
+    display: flex;
+    justify-content: flex-end;
+}
+.logop img{
+    width: 40%;
+}
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */

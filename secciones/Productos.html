@@ -13,21 +13,21 @@
     <link rel="stylesheet" href="../style.css">
     <title>AR | Productos</title>
 </head>
-<body >
-    <header>
+<body class="body" >
+    <header class="menu1">
         <nav>
-            <ul>
+            <ul class = "menu">
                 <li>
-                    <a href="../index.html">Inicio</a>
+                    <a href="../index.html"class ="btn1" id="btn1">Inicio</a>
                 </li>
                 <li>
-                    <a href="Productos.html">Productos</a>
+                    <a href="../secciones/Productos.html"class ="btn1"id="btn1">Productos</a>
                 </li>
                 <li>
-                    <a href="Marcas.html">Marcas</a>
+                    <a href="../secciones/Marcas.html" class ="btn1"id="btn1" >Marcas</a>
                 </li>
                 <li>
-                    <a href="Contacto.html">Contacto</a>
+                    <a href="../secciones/Contacto.html"class ="btn1"id="btn1">Contacto</a>
                 </li>
                 <li>
                     <div class="buscador">
@@ -36,129 +36,221 @@
                     </div>
                 </li>
                 <li>
-                    <a href="Carrito.html"><img src="../Imagenes/Carrito.png" alt="Carrito" Class = Carrito></a>
+                    <a href="../secciones/Carrito.html"class ="btn"><img src="../imagenes/Carrito.png" alt="Carrito" Class = "carrito"></a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="categorias">
         <ul>
             <li>
-                <input type="radio" name = "filtro" id="replicas">
-                <label for="replicas">Replicas</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Replicas
+                    </label>
+                </div>
             </li>
             <li>
-                <input type="radio" name = "filtro" id="calzado">
-                <label for="calzado">Calzado</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Calzado
+                    </label>
+                </div>
             </li>
             <li>
-                <input type="radio" name = "filtro" id="BBs">
-                <label for="BBs">BBs</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        BBs
+                    </label>
+                </div>
             </li>
             <li>
-                <input type="radio" name = "filtro" id="accesorios">
-                <label for="accesorios">Accesorios</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Accesorios
+                    </label>
+                </div>
             </li>
             <li>
-                <input type="radio" name = "filtro" id="Mochilas">
-                <label for="Mochilas">Mochilas</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Mochilas
+                    </label>
+                </div>
             </li>
             <li>
-                <input type="radio" name = "filtro" id="Indumentaria">
-                <label for="Indumentaria">Indumentaria</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Indumentaria
+                    </label>
+                </div>
             </li>
             <li>
-                <input type="radio" name = "filtro" id="Proteccion">
-                <label for="Proteccion">Proteccion</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Proteccion
+                    </label>
+                </div>
             </li>
             <li>
-                <input type="radio" name = "filtro" id="Parches">
-                <label for="Parches">Parches</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Parches
+                    </label>
+                </div>
             </li>
             <li>
-                <input type="radio" name = "filtro" id="Cinturones">
-                <label for="Cinturones">Cinturones</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Cinturones
+                    </label>
+                </div>
             </li>
             <li>
-                <input type="radio" name = "filtro" id="Herramientas">
-                <label for="Herramientas">Herramientas</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Herramientas
+                    </label>
+                </div>
             </li>
             
         </ul>
-        <ul>
-            <li>A-Z</li>
-            <LI>Z-A</LI>
-            <LI>Mayor Precio</LI>
-            <li>Menor precio</li>
-        </ul>
-        <img src="../Imagenes/Logo.png" alt="Logo" class = "Logo" >
-        <input type="text" id="ordenar" placeholder="Ordenar por...">
+        <div class="logop">
+            <img src="../Imagenes/Logo.png" alt="Logo" >
+        </div>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Ordenar por...</option>
+            <option value="1">A-Z</option>
+            <option value="2">Z-A</option>
+            <option value="3">Mayor Precio</option>
+            <option value="4">Menor precio</option>
+        </select>
     </section>
-    <ul class="">
-        <li class="">
+    <ul class="container-producto">
+        <li class="item4234">
             <figure>
                 <img src="../Imagenes/Borcego.png" alt="Borcego" height="300px" width="300px">
             </figure>
-            <div class="">
+            <div class="info-producto">
                 <h2>Borcego</h2>
                 <p class="precio">$$$$$</p>
                 <button> Añadir al carrito</button>
             </div>
         </li>
-        <li class="">
+        <li class="item4234">
             <figure>
                 <img src="../Imagenes/Casco.png" alt="Casco" height="300px" width="300px">
             </figure>
-            <div class="">
+            <div class="info-producto">
                 <h2>Casco</h2>
                 <p class="precio">$$$$$</p>
                 <button> Añadir al carrito</button>
             </div>
         </li>
-        <li class="">
+        <li class="item4234">
             <figure>
                 <img src="../Imagenes/Marcadora.png" alt="Marcadora" height="300px" width="300px">
             </figure>
-            <div class="">
+            <div class="info-producto">
                 <h2>Marcadora</h2>
-                <p class="">$$$$$</p>
+                <p class="precio">$$$$$</p>
                 <button> Añadir al carrito</button>
             </div>
         </li>
-        <li class="">
+        <li class="item4234">
             <figure>
                 <img src="../Imagenes/Pistola.png" alt="Pistola" height="300px" width="300px">
             </figure>
-            <div class="">
+            <div class="info-producto">
                 <h2>Marcadora Pistola</h2>
-                <p class="">$$$$$</p>
+                <p class="precio">$$$$$</p>
                 <button> Añadir al carrito</button>
             </div>
         </li>
-        <li class="">
+        <li class="item4234">
             <figure>
                 <img src="../Imagenes/cinturon.png" alt="cinturon" height="300px" width="300px">
             </figure>
-            <div class="">
+            <div class="info-producto">
                 <h2>Cinturon</h2>
-                <p class="">$$$$$</p>
+                <p class="precio">$$$$$</p>
                 <button> Añadir al carrito</button>
+            </div>
+        </li>
+        <li class="item4234">
+            <figure>
+                <img src="../imagenes/parche.png" alt="Parche" height="300px" width="300px">
+            </figure>
+            <div class="info-producto">
+                <h2>Parche</h2>
+                <p class="precio">$$$$$</p>
+                <button class="añadir"> Añadir al carrito</button>
+            </div>
+        </li>
+        <li class="item4234">
+            <figure>
+                <img src="../imagenes/chaleco.png" alt="chaleco" height="300px" width="300px">
+            </figure>
+            <div class="info-producto">
+                <h2>Chaleco</h2>
+                <p class="precio">$$$$$</p>
+                <button class="añadir"> Añadir al carrito</button>
+            </div>
+        </li>
+        <li class="item4234">
+            <figure>
+                <img src="../imagenes/marcadora2.png" alt="Marcadora 2" height="px" width="300px">
+            </figure>
+            <div class="info-producto">
+                <h2>Marcadora 2</h2>
+                <p class="precio">$$$$$</p>
+                <button class="añadir"> Añadir al carrito</button>
+            </div>
+        </li>
+        <li class="item4234">
+            <figure>
+                <img src="../imagenes/bbs.png" alt="bbs" height="300px" width="300px">
+            </figure>
+            <div class="info-producto">
+                <h2>Balines</h2>
+                <p class="precio">$$$$$</p>
+                <button class="añadir"> Añadir al carrito</button>
+            </div>
+        </li>
+        <li class="item4234">
+            <figure>
+                <img src="../imagenes/mascara2.png" alt="Mascara" height="300px" width="300px">
+            </figure>
+            <div class="info-producto">
+                <h2>Mascara</h2>
+                <p class="precio">$$$$$</p>
+                <button class="añadir"> Añadir al carrito</button>
             </div>
         </li>
     </ul>
     <section>
-        <ul class = "Con" >
+        <ul class = "redes-sociales" >
             <li>
-                <a href="https://www.instagram.com"><img src="../Imagenes/Instagram.png" alt="Instagram logo" class="img-c"></a>
+                <a href="https://www.instagram.com"><img src="../Imagenes/Instagram.png" alt="Instagram logo" class="imagenes-redes"></a>
             </li>
             <li>
-                <a href="https://wa.me/543416233397"><img src="../Imagenes/Whatsapp.png" alt="Whatsapp logo"class="img-c"></a>
+                <a href="https://wa.me/543416233397"><img src="../Imagenes/Whatsapp.png" alt="Whatsapp logo"class="imagenes-redes"></a>
             </li>
             <li>
-                <a href="https://www.facebook.com/home.php"><img src="../Imagenes/Facebook.png" alt="Facebook logo"class="img-c"></a>
+                <a href="https://www.facebook.com/home.php"><img src="../Imagenes/Facebook.png" alt="Facebook logo"class="imagenes-redes"></a>
             </li>
             <li>
-                <a href="mailto:airsoftrosario@gmail.com?Subject=Hola!!!"><img src="../imagenes/Email.png" alt="Email logo"class="imagenes-redes"> airsoftrosario@gmail.com</a>
+                <a href="mailto:airsoftrosario@gmail.com?Subject=Hola!!!"><img src="../imagenes/Email.png" alt="Email logo"class="imagenes-redes"></a>
             </li>
         </ul>
     </section>
