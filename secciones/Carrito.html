@@ -13,21 +13,21 @@
     <link rel="stylesheet" href="../style.css">
     <title>AR | Carrito</title>
 </head>
-<body >
-    <header>
+<body class="body">
+    <header class="menu1">
         <nav>
-            <ul>
+            <ul class = "menu">
                 <li>
-                    <a href="../index.html">Inicio</a>
+                    <a href="../index.html"class ="btn1" id="btn1">Inicio</a>
                 </li>
                 <li>
-                    <a href="Productos.html">Productos</a>
+                    <a href="../secciones/Productos.html"class ="btn1"id="btn1">Productos</a>
                 </li>
                 <li>
-                    <a href="Marcas.html">Marcas</a>
+                    <a href="../secciones/Marcas.html" class ="btn1"id="btn1" >Marcas</a>
                 </li>
                 <li>
-                    <a href="Contacto.html">Contacto</a>
+                    <a href="../secciones/Contacto.html"class ="btn1"id="btn1">Contacto</a>
                 </li>
                 <li>
                     <div class="buscador">
@@ -36,79 +36,104 @@
                     </div>
                 </li>
                 <li>
-                    <a href="Carrito.html"><img src="../Imagenes/Carrito.png" alt="Carrito" Class = Carrito></a>
+                    <button type="button" class="btn">
+                        <a href="../secciones/Carrito.html"class ="btn"><img src="../imagenes/Carrito.png" alt="Carrito" Class = "carrito"></a><span class="badge text-bg-secondary">0</span>
+                    </button>
                 </li>
             </ul>
         </nav>
     </header>
-    <section>
-        <ul>
-            <li class="">
-                <figure>
-                    <img src="../Imagenes/Borcego.png" alt="Borcego" height="300px" width="300px">
-                </figure>
-                <div class="">
-                    <h2>Borcego</h2>
-                    <p class="precio">$$$$$</p>
-                    <button> Añadir al carrito</button>
+    <section>       
+        <div class="juanadearcoc">
+            <div id="carru10" class="carousel slide juangayc">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <figure>
+                            <img src="../imagenes/Borcego.png" alt="Borcego" height="300px" width="300px">
+                        </figure>
+                        <div class="info-productoc">
+                            <h2>Borcego</h2>
+                            <p class="precio">$$$$$</p>
+                            <button class="añadir"> Eliminar producto</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="../imagenes/Casco.png" alt="Casco" height="300px" width="300px">
+                        </figure>
+                        <div class="info-productoc">
+                            <h2>Casco</h2>
+                            <p class="precio">$$$$$</p>
+                            <button class="añadir"> Eliminar producto</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="../imagenes/Marcadora.png" alt="Marcadora" height="300px" width="300px">
+                        </figure>
+                        <div class="info-productoc">
+                            <h2>Marcadora</h2>
+                            <p class="precio">$$$$$</p>
+                            <button class="añadir"> Eliminar producto</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="../imagenes/Pistola.png" alt="Pistola" height="300px" width="300px">
+                        </figure>
+                        <div class="info-productoc">
+                            <h2>Marcadora Pistola</h2>
+                            <p class="precio">$$$$$</p>
+                            <button class="añadir"> Eliminar producto</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="../imagenes/cinturon.png" alt="cinturon" height="300px" width="300px">
+                        </figure>
+                        <div class="info-productoc">
+                            <h2>Cinturon</h2>
+                            <p class="precio">$$$$$</p>
+                            <button class="añadir"> Eliminar producto</button>
+                        </div>
+                    </div>
                 </div>
-            </li>
-            <li class="">
-                <figure>
-                    <img src="../Imagenes/Casco.png" alt="Casco" height="300px" width="300px">
-                </figure>
-                <div class="">
-                    <h2>Casco</h2>
-                    <p class="precio">$$$$$</p>
-                    <button> Añadir al carrito</button>
-                </div>
-            </li>
-            <li class="">
-                <figure>
-                    <img src="../Imagenes/Marcadora.png" alt="Marcadora" height="300px" width="300px">
-                </figure>
-                <div class="">
-                    <h2>Marcadora</h2>
-                    <p class="">$$$$$</p>
-                    <button> Añadir al carrito</button>
-                </div>
-            </li>
-            <li class="">
-                <figure>
-                    <img src="../Imagenes/Pistola.png" alt="Pistola" height="300px" width="300px">
-                </figure>
-                <div class="">
-                    <h2>Marcadora Pistola</h2>
-                    <p class="">$$$$$</p>
-                    <button> Añadir al carrito</button>
-                </div>
-            </li>
-            <li class="">
-                <figure>
-                    <img src="../Imagenes/cinturon.png" alt="cinturon" height="300px" width="300px">
-                </figure>
-                <div class="">
-                    <h2>Cinturon</h2>
-                    <p class="">$$$$$</p>
-                    <button> Añadir al carrito</button>
-                </div>
-            </li>
-        </ul>
-        <p>Subtotal: $XXX XXX</p>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carru10" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carru10" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <h2 class="subtotal">Subtotal: $XXX XXX</h2>
     </section>
-    <section>
+    <section class="gridcarrito">
         <ul>
-            <li>
-                <input type="text" placeholder="Nombre y apellido">
+            <li class="input-group">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">&#128100</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
             </li>
             <li>
-                <input type="text" placeholder="Dirección Email">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">	&#9993;</span>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping">
+                </div>
             </li>
             <li>
-                <input type="text" placeholder="Número Celular">
-            </li> 
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">&#128222;</span>
+                    <input type="text" class="form-control" placeholder="Número de telefono" aria-label="Número de telefono" aria-describedby="addon-wrapping">
+                </div>
+            </li>
         </ul>
-        <img src="../Imagenes/Logo.png" alt="Logo" class = "Logo" >
+        <div class="logitoc">
+            <img src="../Imagenes/Logo.png" alt="Logo" class = "logoc" >
+        </div>
     </section>
     <section>
         <p>Hacemos envios a todo el pais, ingrese su codigo postal y se le agregara el costo de envio</p>
