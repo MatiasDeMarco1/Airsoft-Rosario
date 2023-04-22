@@ -152,42 +152,81 @@
     <section>
         <p>Hacemos envios a todo el pais, ingrese su codigo postal y se le agregara el costo de envio</p>
         <ul>
-            <li>
-                <input type="text" placeholder="Codigo postal">
+            <li class="input-group">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">&#128666</span>
+                    <input type="text" class="form-control" placeholder="Codigo postal" aria-label="Codigo postal" aria-describedby="addon-wrapping">
+                </div>
             </li>
             <li>
-                <input type="radio" name = "Retiro" id="Retiro">
-                <label for="Retiro">Retiro en el Local</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Retiro en el local
+                    </label>
+                </div>
+            </li>
+            <li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Envio a domicilio
+                    </label>
+                </div>
             </li>
         </ul>
         <h1>TOTAL: $XXX XXX</h1>
         <p>seleccione su metodo de pago</p>
         <ul>
             <li>
-                <input type="radio" name = "Credito" id="credito">
-                <label for="Credito">Retiro en el Local</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Debito
+                    </label>
+                </div>
             </li>
             <li>
-                <input type="radio" name = "Debito" id="debito">
-                <label for="Debito">Retiro en el Local</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Credito
+                    </label>
+                </div>
             </li>
             <li>
-                <input type="radio" name = "Transferencia" id="tranferencia">
-                <label for="Transferencia">Retiro en el Local</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Transferencia
+                    </label>
+                </div>
             </li>
         </ul>
         <ul>
             <li>
-                <input type="text" placeholder="XXXX XXXX XXXX XXXX">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">	&#9993;</span>
+                    <input type="text" class="form-control" placeholder="XXXX XXXX XXXX XXXX " aria-label="XXXX XXXX XXXX XXXX" aria-describedby="addon-wrapping">
+                </div>
             </li>
             <li>
-                <input type="text" placeholder="Nombre y apellido">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">	&#9993;</span>
+                    <input type="text" class="form-control" placeholder="Nombre y Apellido" aria-label="Nombre y Apellido" aria-describedby="addon-wrapping">
+                </div>
             </li>
             <li>
-                <input type="text" placeholder="Cod Seguridad">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">	&#9993;</span>
+                    <input type="text" class="form-control" placeholder="Cod de seguridad" aria-label="Cod de seguridad" aria-describedby="addon-wrapping">
+                </div>
             </li>
             <li>
-                <input type="text" placeholder="xx/xx">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">	&#9993;</span>
+                    <input type="text" class="form-control" placeholder="xx/xx" aria-label="xx/xx" aria-describedby="addon-wrapping">
+                </div>
             </li>
             <li>
                 <p>En caso de Transferencia, transferir a la cuenta:</p>
@@ -195,25 +234,24 @@
                 <button>Adjuntar Comprobante</button>
             </li>
         </ul>
-        <ul>
-            <li>3 Coutas</li>
-            <li>6 Cuotas</li>
-            <li>8 Cuotas</li>
-            <li>12 Cuotas</li>
-        </ul>
-        <input type="text" id="ordenar" placeholder="Seleccione cantidad de cuotas">
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Seleccione cantidad de cuotas</option>
+            <option value="1">3 Cuotas</option>
+            <option value="2">6 Cuotas</option>
+            <option value="3">12 Cuotas</option>
+        </select>
         <h3>Si usted llegase a tener algún inconveniente con el pago, no dude en contactarnos</h3>
     </section>
     <section>
-        <ul class = "Con" >
+        <ul class = "redes-sociales" >
             <li>
-                <a href="https://www.instagram.com"><img src="../Imagenes/Instagram.png" alt="Instagram logo" class="img-c"></a>
+                <a href="https://www.instagram.com"><img src="../Imagenes/Instagram.png" alt="Instagram logo" class="imagenes-redes"></a>
             </li>
             <li>
-                <a href="https://wa.me/543416233397"><img src="../Imagenes/Whatsapp.png" alt="Whatsapp logo"class="img-c"></a>
+                <a href="https://wa.me/543416233397"><img src="../Imagenes/Whatsapp.png" alt="Whatsapp logo"class="imagenes-redes"></a>
             </li>
             <li>
-                <a href="https://www.facebook.com/home.php"><img src="../Imagenes/Facebook.png" alt="Facebook logo"class="img-c"></a>
+                <a href="https://www.facebook.com/home.php"><img src="../Imagenes/Facebook.png" alt="Facebook logo"class="imagenes-redes"></a>
             </li>
             <li>
                 <a href="mailto:airsoftrosario@gmail.com?Subject=Hola!!!"><img src="../imagenes/Email.png" alt="Email logo"class="imagenes-redes"></a>
