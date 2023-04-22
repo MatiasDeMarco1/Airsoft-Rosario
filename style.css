@@ -78,6 +78,12 @@ ul {
     text-decoration: none;
     margin: 10px;
 }
+.btn1m button{
+    padding: 0px 30px;
+    border: none;
+    background-color: transparent;
+}
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 /* Logo >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .logo {
