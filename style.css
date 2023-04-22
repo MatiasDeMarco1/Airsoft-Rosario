@@ -183,13 +183,12 @@ ul {
 }
 .item4234{
     border-radius: 10px;
-    border: rgba(255, 255, 255, 0.356) solid;
 }
 .item4234:hover{
     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.7);
 }
 .item4234 img{
-    width: 100%;
+    max-width: 100%;
     height: 275px;
     flex-grow: 1;
     object-fit: cover;
@@ -210,6 +209,7 @@ ul {
     flex-direction: column;
     gap: 10px;
     color: white;
+    justify-content: center;
 }
 .precio{
     font-family: 'Roboto Condensed', sans-serif;
@@ -407,4 +407,56 @@ ul {
 .logitoc {
     display: flex;
     justify-content: end;
+}
+
+.opcion {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.gridopcion {
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+.hacemos {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.hacemos1 {
+    text-decoration: overline;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 100px;
+}
+.texto li {
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logoc2 {
+    width: 35%;
+}
+.hacemos3 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+}
+.hacemos3 li {
+    margin-right: 200px ;
+
+}
+#metodo {
+    margin-top: 50px;
+}
+.gridcarrito2{
+    display: grid;
+    grid-template-columns: 30% 60%;
+}
+.transferencia {
+    text-align: center;
+}
+.gridcarrito2 ul li select {
+    margin-bottom: 110px;
+}
+.postal {
+    width: 30%;
 }
