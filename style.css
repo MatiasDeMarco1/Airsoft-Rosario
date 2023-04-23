@@ -452,6 +452,8 @@ ul {
     grid-template-columns: 30% 60%;
 }
 .transferencia {
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 .gridcarrito2 ul li select {
@@ -459,4 +461,11 @@ ul {
 }
 .postal {
     width: 30%;
+}
+
+.archivo {
+    width: 100%;
+}
+.gridcarrito2 ul li{
+    margin-top: 10px;
 }
