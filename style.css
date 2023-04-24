@@ -8,464 +8,578 @@ ul {
     padding: 0;
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* Backrground >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.body{
-    background: url(Imagenes/Fondo.png);
-    background-position: center;
-    background-size: cover;
-}
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* Header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.menu1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    padding-top: 20px;
-}
-
-.carrito{
-    width: 25px;
-}
-.buscador{
-    position: relative;
-}
-.buscador input{
-    width: 300px;
-    padding: 7px;
-    padding-right: 30px;
-    border-radius: 9px 0 0 9px;
-    border: 0;
-    background-color: rgb(161, 161, 161);
-    font-size: 1rem;
-}
-.buscador button{
-    background-color: rgb(88, 88, 88);
-    padding: 10px;
-    position: absolute;
-    border: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    border-radius: 0 5px 5px 0;
-    color: #FFF;
-    cursor: pointer;
-}
-.buscador button:hover{
-    background-color: rgba(0 0 0 / .2);
-}
-.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.menu li{
-    justify-content: center;
-    padding: 500px;
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-}
-#btn1:hover{
-    border-bottom: 1px solid white;
-}
-.btn1{
-    font-size: large;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 10px 30px;
-    text-decoration: none;
-    margin: 10px;
-}
-.btn1m button{
-    padding: 0px 30px;
-    border: none;
-    background-color: transparent;
-}
-
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* Logo >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.logo {
-    width: 160px;
-    margin-top: 30px;
-}
-.logo1{
-    display: flex;
-    justify-content: center;
-}
-.logoc {
-    width: 180px;
-}
-.logoc1 {
-    display: flex;
-    justify-content: center;
-}
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* Presentacion de imagenes >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.carru{
-    margin-top: 50px;
-    margin-right: 5%;
-    margin-left: 5%;
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    height: 550px;
-    border: solid white;
-}
-.carru img {
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8 ;
-    transition: .5s ease;
-}
-.carru img:hover{
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-}
-.juanadearco {
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-}
-.juangaym {
-    width: 80%;
-}
-.juangaym img {
-    width: 550px;
-    height: 600px;
-}
-.titulom {
-    color: white;
-    text-align: center;
-    font-family:'Roboto Condensed', sans-serif;
-    font-size: 60px;
-    text-decoration: overline;
-}
-.marcas {
-    margin-top: 80px;
-    text-align: center;
-}
-.marcas ul li {
-    margin-top: 100px;
-}
-.marcas ul {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* Seccion productos >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.titulo {
-    text-decoration: overline;
-    margin-bottom: 60px;
-    font-size: 75px;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-.productos-destacados{
-    margin-top: 80px;  
-    text-align: center;
-}
-#productos-destacados{
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: white;
-    text-decoration: overline;
-    margin-bottom: 80px;
-}
-.container-producto{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap: 50px;
-}
-.item4234{
-    border-radius: 10px;
-}
-.item4234:hover{
-    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.7);
-}
-.item4234 img{
-    max-width: 100%;
-    height: 275px;
-    flex-grow: 1;
-    object-fit: cover;
-    border-radius: 18px 18px 0 0;
-    transition: all .5s;
-}
-.item4234 figure{
-    overflow: hidden;
-}
-.item4234:hover img{
-    transform: scale(1.1);
-}
-.info-producto{
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 15px 30px;
-    line-height: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: white;
-    justify-content: center;
-}
-.precio{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
-    font-weight: 900px;
-}
-.info-producto button{
-    font-family: 'Roboto Condensed', sans-serif;
-    border: none;
-    background: none;
-    background-color: white;
-    padding: 15px 10px;
-    cursor: pointer;
-}
-.añadir{
-    font-size: medium;
-}
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* Redes sociales >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.imagenes-redes:hover{
-    box-shadow: 0 10px 20px white;
-}
-.imagenes-redes{
-    width: 80px;
-    background-color:#ffffff59;
-    border: solid black;
-    padding: 20px 20px;
-    border-radius: 40% ;
-}
-
-.redes-sociales{
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
-.redes-sociales li  {
-    margin-top: 90px;
-    display: inline-block;
-}
-.redes-grid{
-    margin-top: 100px;
-    display: grid;
-    grid-template-columns: 60% 30%;
-}
-.redes-grid a {
-    font-family:'Roboto Condensed', sans-serif ;
-    color: white;
-    text-decoration: none;
-    font-size: 40px;
-}
-.redes-sociales-contacto {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* Footer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.legal{
-    margin-top: 200px;
-    background-color: #a6a6a6b6;
-    text-align: center;
-    padding-top: 40px;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-.consumidor{
-    display: inline-block;
-    margin-top: 40px;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-.pago1 {
-    display: flex;
-    justify-content: center;
-}
-.pago {
-    display:inline-block;
-    justify-content: space-between;
-    border-radius: 10px;
-    margin: 80px;
-    width: 80px;
-    height: 40px;
-}
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* consulta y mapa >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.consultac {
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-
-}
-.tituloc{
-    text-align: center;
-    color: white;
-    font-family:'Roboto Condensed', sans-serif;
-    font-size: 60px;
-    text-decoration: overline;
+/* Desktop >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1280px){
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    /* Backrground >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .body{
+        background: url(Imagenes/Fondo.png);
+        background-position: center;
+        background-size: cover;
+    }
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    /* Header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .menu1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        padding-top: 20px;
+    }
     
-}
-.input-group-text {
-    font-family:'Roboto Condensed', sans-serif ;
-    font-size: 40px;
-}
-.mapa {
-    text-align: center;
-    margin-top: 80px;  
-}
-.mapa iframe {
-    width: 70%;
-    height: 40rem;
-}
-.consultac1 ul {
-    margin-top: 80px;
-}
-.consultac1 ul li {
-    font-family:'Roboto Condensed', sans-serif ;
-    margin-top: 40px;
+    .carrito{
+        width: 25px;
+    }
+    .buscador{
+        position: relative;
+    }
+    .buscador input{
+        width: 300px;
+        padding: 7px;
+        padding-right: 30px;
+        border-radius: 9px 0 0 9px;
+        border: 0;
+        background-color: rgb(161, 161, 161);
+        font-size: 1rem;
+    }
+    .buscador button{
+        background-color: rgb(88, 88, 88);
+        padding: 10px;
+        position: absolute;
+        border: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 0 5px 5px 0;
+        color: #FFF;
+        cursor: pointer;
+    }
+    .buscador button:hover{
+        background-color: rgba(0 0 0 / .2);
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu li{
+        justify-content: center;
+        padding: 500px;
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+    }
+    #btn1:hover{
+        border-bottom: 1px solid white;
+    }
+    .btn1{
+        font-size: large;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 10px 30px;
+        text-decoration: none;
+        margin: 10px;
+    }
+    .btn1m button{
+        padding: 0px 30px;
+        border: none;
+        background-color: transparent;
+    }
+    
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    /* Logo >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .logo {
+        width: 160px;
+        margin-top: 30px;
+    }
+    .logo1{
+        display: flex;
+        justify-content: center;
+    }
+    .logoc {
+        width: 180px;
+    }
+    .logoc1 {
+        display: flex;
+        justify-content: center;
+    }
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    /* Presentacion de imagenes >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .carru{
+        margin-top: 50px;
+        margin-right: 5%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: 550px;
+        border: solid white;
+    }
+    .carru img {
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8 ;
+        transition: .5s ease;
+    }
+    .carru img:hover{
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+    .juanadearco {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .juangaym {
+        width: 80%;
+    }
+    .juangaym img {
+        width: 550px;
+        height: 600px;
+    }
+    .titulom {
+        color: white;
+        text-align: center;
+        font-family:'Roboto Condensed', sans-serif;
+        font-size: 60px;
+        text-decoration: overline;
+    }
+    .marcas {
+        margin-top: 80px;
+        text-align: center;
+    }
+    .marcas ul li {
+        margin-top: 100px;
+    }
+    .marcas ul {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    /* Seccion productos >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .titulo {
+        text-decoration: overline;
+        margin-bottom: 60px;
+        font-size: 75px;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .productos-destacados{
+        margin-top: 80px;  
+        text-align: center;
+    }
+    #productos-destacados{
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        text-decoration: overline;
+        margin-bottom: 80px;
+    }
+    .container-producto{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 50px;
+    }
+    .item4234{
+        border-radius: 10px;
+    }
+    .item4234:hover{
+        box-shadow: 0 10px 20px rgba(255, 255, 255, 0.7);
+    }
+    .item4234 img{
+        max-width: 100%;
+        height: 275px;
+        flex-grow: 1;
+        object-fit: cover;
+        border-radius: 18px 18px 0 0;
+        transition: all .5s;
+    }
+    .item4234 figure{
+        overflow: hidden;
+    }
+    .item4234:hover img{
+        transform: scale(1.1);
+    }
+    .info-producto{
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 15px 30px;
+        line-height: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: white;
+        justify-content: center;
+    }
+    .precio{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 18px;
+        font-weight: 900px;
+    }
+    .info-producto button{
+        font-family: 'Roboto Condensed', sans-serif;
+        border: none;
+        background: none;
+        background-color: white;
+        padding: 15px 10px;
+        cursor: pointer;
+    }
+    .añadir{
+        font-size: medium;
+    }
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    /* Redes sociales >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .imagenes-redes:hover{
+        box-shadow: 0 10px 20px white;
+    }
+    .imagenes-redes{
+        width: 80px;
+        background-color:#ffffff59;
+        border: solid black;
+        padding: 20px 20px;
+        border-radius: 40% ;
+    }
+    
+    .redes-sociales{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    .redes-sociales li  {
+        margin-top: 90px;
+        display: inline-block;
+    }
+    .redes-grid{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 60% 30%;
+    }
+    .redes-grid a {
+        font-family:'Roboto Condensed', sans-serif ;
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    .redes-sociales-contacto {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    /* Footer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .legal{
+        margin-top: 200px;
+        background-color: #a6a6a6b6;
+        text-align: center;
+        padding-top: 40px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .consumidor{
+        display: inline-block;
+        margin-top: 40px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .pago1 {
+        display: flex;
+        justify-content: center;
+    }
+    .pago {
+        display:inline-block;
+        justify-content: space-between;
+        border-radius: 10px;
+        margin: 80px;
+        width: 80px;
+        height: 40px;
+    }
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    /* consulta y mapa >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .consultac {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    
+    }
+    .tituloc{
+        text-align: center;
+        color: white;
+        font-family:'Roboto Condensed', sans-serif;
+        font-size: 60px;
+        text-decoration: overline;
+        
+    }
+    .input-group-text {
+        font-family:'Roboto Condensed', sans-serif ;
+        font-size: 40px;
+    }
+    .mapa {
+        text-align: center;
+        margin-top: 80px;  
+    }
+    .mapa iframe {
+        width: 70%;
+        height: 40rem;
+    }
+    .consultac1 ul {
+        margin-top: 80px;
+    }
+    .consultac1 ul li {
+        font-family:'Roboto Condensed', sans-serif ;
+        margin-top: 40px;
+    
+    }
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    /* Categorias >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .categorias {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 60% 30%;
+    }
+    .categorias ul {
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .categorias ul li{
+        color: white;
+        font-family:'Roboto Condensed', sans-serif ;
+        font-size: 20px;
+    }
+    .categorias select {
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 15%;
+        font-family:'Roboto Condensed', sans-serif ;
+    }
+    .logop {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .logop img{
+        width: 40%;
+    }
+    
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    /* Catalogo >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .catalogo {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 120px;
+    }
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+    /* Carrito >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+    .boton {
+        background-color: none;
+    }
+    .juanadearcoc {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .juangayc {
+        width: 20%;
+    }
+    .juangayc figure {
+        display: flex;
+        justify-content: center;
+    }
+    .info-productoc{
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 15px 30px;
+        line-height: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: white;
+    }
+    .subtotal {
+        color: white;
+        text-align: center;
+        font-family:'Roboto Condensed', sans-serif;
+        font-size: 60px;
+        text-decoration: overline;
+    
+    }
+    .gridcarrito {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 60% 30%;
+    }
+    .logitoc {
+        display: flex;
+        justify-content: end;
+    }
+    
+    .opcion {
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .gridopcion {
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+    .hacemos {
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .hacemos1 {
+        text-decoration: overline;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-top: 100px;
+    }
+    .texto li {
+        width: 40%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .logoc2 {
+        width: 35%;
+    }
+    .hacemos3 {
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        display: flex;
+    }
+    .hacemos3 li {
+        margin-right: 200px ;
+    
+    }
+    #metodo {
+        margin-top: 50px;
+    }
+    .gridcarrito2{
+        display: grid;
+        grid-template-columns: 30% 60%;
+    }
+    .transferencia {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .gridcarrito2 ul li select {
+        margin-bottom: 110px;
+    }
+    .postal {
+        width: 30%;
+    }
+    
+    .archivo {
+        width: 100%;
+    }
+    .gridcarrito2 ul li{
+        margin-top: 10px;
+    }
+    .checkbtn {
+        display: none;
+    }
+    #check {
+        display: none;
+    }
+    .celu {
+        display: none;
+    }
+    .carrucelu{
+        display: none;
+    }
+    /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 }
+
+/* Adaptacion a movil >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* Categorias >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.categorias {
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: 60% 30%;
-}
-.categorias ul {
-    margin-left: 20px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.categorias ul li{
-    color: white;
-    font-family:'Roboto Condensed', sans-serif ;
-    font-size: 20px;
-}
-.categorias select {
-    margin-top: 10px;
-    margin-left: 20px;
-    width: 15%;
-    font-family:'Roboto Condensed', sans-serif ;
-}
-.logop {
-    display: flex;
-    justify-content: flex-end;
-}
-.logop img{
-    width: 40%;
-}
+@media (max-width: 800px) {
+    body {
+        background: url(Imagenes/Fondo.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .carrito{
+        width: 25px;
+    }
+    .logo1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .logo {
+        width: 40%;}
+    
+    .minavbar {
+        display: none;
+    }
+    #btn1:hover{
+        border-bottom: 1px solid white;
+    }
+    .btn1{
+        font-size: large;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-decoration: none;
+        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btn1m button{
+        border: none;
+        background-color: transparent;
+    }
+    .celu_menu{
+        display: flex;
+    }
+    .buscador{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .search {
+        color: #5B5C5E;
+        margin:#5B5C5E;
+    }
+    #btnc {
+        padding: 0;
 
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-/* Catalogo >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.catalogo {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 120px;
-}
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-.boton {
-    background-color: none;
-}
-.juanadearcoc {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-}
-.juangayc {
-    width: 20%;
-}
-.juangayc figure {
-    display: flex;
-    justify-content: center;
-}
-.info-productoc{
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 15px 30px;
-    line-height: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: white;
-}
-.subtotal {
-    color: white;
-    text-align: center;
-    font-family:'Roboto Condensed', sans-serif;
-    font-size: 60px;
-    text-decoration: overline;
-
-}
-.gridcarrito {
-    margin-top: 100px;
-    display: grid;
-    grid-template-columns: 60% 30%;
-}
-.logitoc {
-    display: flex;
-    justify-content: end;
-}
-
-.opcion {
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-.gridopcion {
-    display: grid;
-    grid-template-columns: 40% 40%;
-}
-.hacemos {
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-.hacemos1 {
-    text-decoration: overline;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-top: 100px;
-}
-.texto li {
-    width: 40%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.logoc2 {
-    width: 35%;
-}
-.hacemos3 {
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-    display: flex;
-}
-.hacemos3 li {
-    margin-right: 200px ;
-
-}
-#metodo {
-    margin-top: 50px;
-}
-.gridcarrito2{
-    display: grid;
-    grid-template-columns: 30% 60%;
-}
-.transferencia {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.gridcarrito2 ul li select {
-    margin-bottom: 110px;
-}
-.postal {
-    width: 30%;
-}
-
-.archivo {
-    width: 100%;
-}
-.gridcarrito2 ul li{
-    margin-top: 10px;
+    }
+    .carru {
+        display: none;
+    }
+    .carrucelu {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .imagenes-redes:hover{
+        box-shadow: 0 10px 20px white;
+    }
+    .imagenes-redes{
+        width: 80px;
+        background-color:#ffffff59;
+        border: solid black;
+        padding: 20px 20px;
+        border-radius: 40% ;
+    }
+    
+    .redes-sociales{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    .redes-sociales li  {
+        margin-top: 90px;
+        display: inline-block;
+    }
+    .redes-grid{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 60% 30%;
+    }
+    .redes-grid a {
+        font-family:'Roboto Condensed', sans-serif ;
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    
 }
