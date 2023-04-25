@@ -13,7 +13,7 @@ ul {
     /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
     /* Backrground >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
     .body{
-        background: url(../imagenes/Fondo.png);
+        background: url(imagenes/Fondo.png);
         background-position: center;
         background-size: cover;
     }
@@ -497,7 +497,7 @@ ul {
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 @media  (max-width: 1280px) {
     body {
-        background: url(../imagenes/Fondo.png);
+        background: url(imagenes/Fondo.png);
         background-position: center;
         background-size: cover;
     }
