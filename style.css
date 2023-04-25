@@ -255,13 +255,14 @@ ul {
     .redes-grid{
         margin-top: 100px;
         display: grid;
-        grid-template-columns: 60% 30%;
+        grid-template-columns: 70% 30%;
     }
     .redes-grid a {
         font-family:'Roboto Condensed', sans-serif ;
         color: white;
         text-decoration: none;
-        font-size: 40px;
+        font-size: 30px;
+        margin: auto;
     }
     .redes-sociales-contacto {
         display: grid;
