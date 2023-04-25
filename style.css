@@ -485,6 +485,9 @@ ul {
     .carrucelu{
         display: none;
     }
+    .productos-destacados-mobile {
+        display: none;
+    }
     /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 }
@@ -492,7 +495,7 @@ ul {
 /* Adaptacion a movil >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-@media (max-width: 800px) {
+@media  (max-width: 1280px) {
     body {
         background: url(Imagenes/Fondo.png);
         background-position: center;
@@ -581,5 +584,76 @@ ul {
         text-decoration: none;
         font-size: 40px;
     }
-    
+    .titulo {
+        font-size: 50px;
+        margin-top: 80px;  
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        text-decoration: overline;
+    }
+    .productos-destacados {
+        margin-top: 80px;  
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        text-decoration: overline;
+    }
+    .container-producto {
+        display: none;
+    }
+    .carrucc {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .carrucc1 {
+        width: 100%;
+    }
+    .carrucc1 figure {
+        display: flex;
+        justify-content: center;
+    }
+    .info-productoc{
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 15px 30px;
+        line-height: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: white;
+    }
+    .precio{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 18px;
+        font-weight: 900px;
+    }
+    .añadir{
+        font-size: medium;
+    }
+    .legal{
+        margin-top: 200px;
+        background-color: #a6a6a6b6;
+        text-align: center;
+        padding-top: 40px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .consumidor{
+        display: inline-block;
+        margin-top: 40px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .pago1 {
+        display: flex;
+        justify-content: center;
+    }
+    .pago {
+        display: inline-block;
+        border-radius: 10px;
+        width: 40px;
+        height: 30px;
+        margin: auto;
+    }
+
 }
