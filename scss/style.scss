@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+@import "component/headerDesktop";
+@import "component/headerMobile";
+@import "component/footer";
+@import "component/redes";
+@import "component/logo";
+@import "component/titulos";
+@import "index";
+@import "productos";
+@import "marcas";
+@import "contacto";
+@import "carrito";
+
+
+
+
+
+body {
+    background: url(../imagenes/Fondo.png);
+    background-position: center;
+    background-size: cover;
+    @media  screen and (min-width: 1280px) {
+    .checkbtn {
+        display: none;
+    }
+    #check {
+        display: none;
+    }
+    .celu {
+        display: none;
+    }
+    .carrucelu{
+        display: none;
+    }
+    .carrucc {
+        display: none;
+    }
+        
+    }
+    @media  screen and (max-width: 1280px){
+        .minavbar {
+            display: none;
+        }
+        .container-producto {
+            display: none;
+        }
+        .carru {
+            display: none;
+        }
+    }
+}

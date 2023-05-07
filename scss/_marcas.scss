@@ -1,0 +1,46 @@
+
+
+.marcas {
+    margin-top: 80px;
+    text-align: center;
+    .titulom {
+        color: white;
+        text-align: center;
+        font-family:'Roboto Condensed', sans-serif;
+        font-size: 60px;
+        text-decoration: overline;
+    }
+    @media screen and (min-width: 1280px) {
+        ul {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+    }
+    ul {
+        li {
+            margin-top: 100px;
+            h2 {
+                text-decoration: overline;
+                margin-bottom: 60px;
+                font-size: 75px;
+                color: white;
+                font-family: 'Roboto Condensed', sans-serif;
+            }
+            .marcas-item {
+                margin-top: 80px;
+                display: flex;
+                justify-content: center;
+                .marcas-item2 {
+                    width: 80%;
+                    img {
+                        width: 550px;
+                        height: 600px;
+                    }
+                }
+            }
+            
+            
+            
+        }
+    }
+}

@@ -1,0 +1,47 @@
+
+.logo1 {
+    display: flex;
+    justify-content: center;
+    @media screen  and (min-width: 1280px){
+        .logo {
+            width: 160px;
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 1280px){
+        margin-top: 50px;
+        .logo{
+            width: 40%;
+        }
+        
+    }
+}
+.logop {
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        justify-content: flex-end;
+        img{
+            width: 40%;
+        }
+    }
+    
+}
+
+.logoc1 {
+    display: flex;
+    justify-content: center;
+    .logoc {
+        width: 180px;
+    }
+}
+
+.logitoc {
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        justify-content: end;
+        img {
+            width: 35%;
+        }
+    }
+    
+}

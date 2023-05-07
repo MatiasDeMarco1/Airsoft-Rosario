@@ -1,0 +1,59 @@
+
+
+.consultac {
+    @media screen and (min-width: 1280px) {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        .consultac1 {
+            ul {
+                margin-top: 80px;
+                li{
+                    font-family:'Roboto Condensed', sans-serif ;
+                    margin-top: 40px;
+                    .input-group-text {
+                        font-family:'Roboto Condensed', sans-serif ;
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+        .consultac2 {
+            .mapa {
+                text-align: center;
+                margin-top: 80px;
+                iframe {
+                    width: 70%;
+                    height: 40rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.redes-grid{
+    @media screen and (min-width: 1280px) {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        ul {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            li {
+                a {
+                    font-family:'Roboto Condensed', sans-serif ;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 30px;
+                    margin: auto;
+                }
+            }   
+        }
+        
+    }
+    
+}
