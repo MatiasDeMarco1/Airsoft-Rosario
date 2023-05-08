@@ -15,7 +15,7 @@
 </head>
 <body class = "body">
     <header class="menu1">
-        <nav>
+        <nav class="minavbar">
             <ul class = "menu">
                 <li>
                     <a href="../index.html"class ="btn1" id="btn1">Inicio</a>
@@ -55,6 +55,56 @@
                     </button>
                 </li>
             </ul>
+        </nav>
+        <div class="collapse celu " id="navbarToggleExternalContent">
+            <div class="bg-black p-4 celu_menu">
+                <ul>
+                    <li>
+                        <a href="../index.html"class ="btn1" id="btn1">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="../secciones/Productos.html"class ="btn1"id="btn1">Productos</a>
+                    </li>
+                    <li>
+                        <div class="dropdown-center btn1m">
+                            <button class="btn1 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn1">
+                                Marcas
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../secciones/Marcas.html#eagle">Eagle Caw</a></li>
+                                <li><a class="dropdown-item" href="../secciones/Marcas.html#gyg">GyG Airsoft</a></li>
+                                <li><a class="dropdown-item" href="../secciones/Marcas.html#mtech">M Tech</a></li>
+                                <li><a class="dropdown-item" href="../secciones/Marcas.html#classic">Classic Army</a></li>
+                                <li><a class="dropdown-item" href="../secciones/Marcas.html#mechanix">Mechanix</a></li>
+                                <li><a class="dropdown-item" href="../secciones/Marcas.html#hk">HK Heclker & Koch</a></li>
+                                <li><a class="dropdown-item" href="../secciones/Marcas.html#ayk">A&K</a></li>
+                                <li><a class="dropdown-item" href="../secciones/Marcas.html#helicon">Helicon Tex</a></li>                            
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../secciones/Contacto.html"class ="btn1"id="btn1">Contacto</a>
+                    </li>
+                    <li>
+                        <form class="d-flex buscador" role="search">
+                            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success search" type="submit">Search</button>
+                        </form>
+                    </li>
+                    <li>
+                        <button type="button" class="btn" id="btnc">
+                            <a href="../secciones/Carrito.html"class ="btn" id="btnc"><img src="../imagenes/Carrito.png" alt="Carrito" Class = "carrito"></a><span class="badge text-bg-secondary">0</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-black celu">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
         </nav>
     </header>
     <section class="consultac">
