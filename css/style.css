@@ -243,6 +243,11 @@ ul {
 .logoc1 .logoc {
   width: 180px;
 }
+@media screen and (max-width: 1280px) {
+  .logoc1 .logoc {
+    width: 40%;
+  }
+}
 
 @media screen and (min-width: 1280px) {
   .logitoc {
@@ -555,6 +560,41 @@ ul {
     height: 40rem;
   }
 }
+@media screen and (max-width: 1280px) {
+  .consultac {
+    margin-top: 100px;
+  }
+  .consultac .consultac1 h1 {
+    font-size: 50px;
+  }
+  .consultac .consultac1 ul {
+    margin-top: 60px;
+    width: 100%;
+    margin-right: 10px;
+  }
+  .consultac .consultac1 ul li {
+    justify-content: center;
+    width: 100%;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top: 15px;
+  }
+  .consultac .consultac1 ul li .input-group-text {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 50px;
+  }
+  .consultac .consultac1 ul li button {
+    width: 90px;
+  }
+  .consultac .consultac2 {
+    margin-top: 90px;
+  }
+  .consultac .consultac2 h2 {
+    font-size: 40px;
+  }
+  .consultac .consultac2 .mapa iframe {
+    width: 100%;
+  }
+}
 
 @media screen and (min-width: 1280px) {
   .redes-grid {
@@ -572,6 +612,28 @@ ul {
     text-decoration: none;
     font-size: 30px;
     margin: auto;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .redes-grid {
+    margin-top: 120px;
+  }
+  .redes-grid ul {
+    text-align: start;
+  }
+  .redes-grid ul li {
+    margin: auto;
+    display: list-item;
+  }
+  .redes-grid ul li a {
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto;
+  }
+  .redes-grid .logoc {
+    margin-top: 100px;
   }
 }
 

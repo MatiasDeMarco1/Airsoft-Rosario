@@ -31,8 +31,12 @@
     display: flex;
     justify-content: center;
     .logoc {
+        @media  screen and (max-width: 1280px) {
+            width: 40%;
+        }
         width: 180px;
     }
+
 }
 
 .logitoc {

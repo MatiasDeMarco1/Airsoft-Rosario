@@ -1,0 +1,117 @@
+
+
+.consultac {
+    @media screen and (min-width: 1280px) {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        .consultac1 {
+            ul {
+                margin-top: 80px;
+                li{
+                    font-family:'Roboto Condensed', sans-serif ;
+                    margin-top: 40px;
+                    .input-group-text {
+                        font-family:'Roboto Condensed', sans-serif ;
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+        .consultac2 {
+            .mapa {
+                text-align: center;
+                margin-top: 80px;
+                iframe {
+                    width: 70%;
+                    height: 40rem;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 1280px) {
+        margin-top: 100px;
+        .consultac1 {
+            h1 {
+                font-size: 50px;
+            }
+            ul {
+                margin-top: 60px;
+                width: 100%;
+                margin-right: 10px;
+                li {
+                    justify-content: center;
+                    width: 100%;
+                    font-family:'Roboto Condensed', sans-serif ;
+                    margin-top: 15px;
+                    .input-group-text {
+                        font-family:'Roboto Condensed', sans-serif ;
+                        font-size: 50px;
+                    }
+                    button {
+                        width: 90px;
+                    }
+                }
+            }
+        }
+        .consultac2 {
+            margin-top: 90px;
+            h2 {
+                font-size: 40px;
+            }
+            .mapa {
+                iframe {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.redes-grid{
+    @media screen and (min-width: 1280px) {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        ul {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            li {
+                a {
+                    font-family:'Roboto Condensed', sans-serif ;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 30px;
+                    margin: auto;
+                }
+            }   
+        }
+        
+    }
+    @media screen and (max-width: 1280px) {
+        margin-top: 120px;
+        ul {
+            text-align: start;
+            li {
+                margin: auto;
+                display: list-item;
+                a {
+                    font-family:'Roboto Condensed', sans-serif ;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 20px;
+                    margin: auto;
+                }
+            }
+        }
+        .logoc {
+            margin-top: 100px;
+        }
+        
+    }
+    
+}

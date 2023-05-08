@@ -10,14 +10,14 @@ ul {
 @import "component/headerDesktop";
 @import "component/headerMobile";
 @import "component/footer";
-@import "component/redes";
-@import "component/logo";
-@import "component/titulos";
-@import "index";
-@import "productos";
-@import "marcas";
-@import "contacto";
-@import "carrito";
+@import "base/redes";
+@import "base/logo";
+@import "base/titulos";
+@import "component/index";
+@import "component/productos";
+@import "component/marcas";
+@import "component/contacto";
+@import "component/carrito";
 
 
 
