@@ -55,5 +55,13 @@
             width: 35%;
         }
     }
+    @media screen and (max-width: 1280px) {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 90%;
+        }
+    }
+    
     
 }

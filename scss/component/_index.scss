@@ -40,7 +40,6 @@
         margin-bottom: 60px;
         font-size: 75px;
         color: white;
-        font-family: 'Roboto Condensed', sans-serif;
     }
     ul {
         display: grid;
@@ -66,7 +65,6 @@
                 overflow: hidden;
             }
             .info-producto{
-                font-family: 'Roboto Condensed', sans-serif;
                 padding: 15px 30px;
                 line-height: 2;
                 display: flex;
@@ -75,12 +73,10 @@
                 color: white;
                 justify-content: center;
                 .precio{
-                    font-family: 'Roboto Condensed', sans-serif;
                     font-size: 18px;
                     font-weight: 900px;
                 }
                 button {
-                    font-family: 'Roboto Condensed', sans-serif;
                     border: none;
                     background: none;
                     background-color: white;
@@ -94,14 +90,12 @@
     @media screen and (max-width: 1280px){
         margin-top: 80px;  
         text-align: center;
-        font-family: 'Roboto Condensed', sans-serif;
         color: white;
         text-decoration: overline;
         h1 {
             font-size: 50px;
             margin-top: 80px;  
             text-align: center;
-            font-family: 'Roboto Condensed', sans-serif;
             color: white;
             text-decoration: overline;
         }
@@ -117,7 +111,6 @@
                     justify-content: center;
                 }
                 .info-productoc{
-                    font-family: 'Roboto Condensed', sans-serif;
                     padding: 15px 30px;
                     line-height: 2;
                     display: flex;
@@ -126,7 +119,6 @@
                     color: white;
                     .precio{
                         justify-content: center;
-                        font-family: 'Roboto Condensed', sans-serif;
                         font-size: 18px;
                         font-weight: 900px;
                     }

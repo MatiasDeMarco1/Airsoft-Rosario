@@ -1,81 +1,85 @@
 
 
 .carritop {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
     @media screen and (min-width: 1280px) {
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
         .carritop2 {
             width: 20%;
-            figure {
-                display: flex;
-                justify-content: center;
-            }
-            .info-productoc{
-                font-family: 'Roboto Condensed', sans-serif;
-                padding: 15px 30px;
-                line-height: 2;
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-                color: white;
-                .precio{
-                    font-family: 'Roboto Condensed', sans-serif;
-                    font-size: 18px;
-                    font-weight: 900px;
-                }
-                button {
-                    font-family: 'Roboto Condensed', sans-serif;
-                    border: none;
-                    background: none;
-                    background-color: white;
-                    padding: 15px 10px;
-                    cursor: pointer;
-                    font-size: medium;
-                }
-            }
-            
         }
     }
-    
+    .carritop2 {
+        width: 80%;
+        figure {
+            display: flex;
+            justify-content: center;
+        }
+        .info-productoc {
+            padding: 15px 30px;
+            line-height: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: white;
+            .precio{
+                font-size: 18px;
+                font-weight: 900px;
+            }
+            button {
+                border: none;
+                background: none;
+                background-color: white;
+                padding: 10px 10px;
+                cursor: pointer;
+                font-size: medium;
+            }
+        }
+    }
 }
 
 .subtotal {
     @media screen and (min-width: 1280px) {
-        color: white;
-        text-align: center;
-        font-family:'Roboto Condensed', sans-serif;
         font-size: 60px;
-        text-decoration: overline;
     }
+    text-decoration: overline;
+    color: white;
+    text-align: center;
+    font-size: 30px;
     
 }
 
 .gridcarrito {
     @media screen and (min-width: 1280px) {
         margin-top: 100px;
-        display: grid;
-        grid-template-columns: 60% 30%;
         ul {
             li{
                 width: 40%;
-                margin-top: 10px;
-                margin-bottom: 10px;
             }
         }
     }
-
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    ul {
+        width: 90%;
+        li {
+            width: 90%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
 }
 
 .hacemos1 {
     text-decoration: overline;
     color: white;
-    font-family: 'Roboto Condensed', sans-serif;
     margin-top: 100px;
+    text-align: center;
 }
 .hacemos {
     color: white;
-    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
 }
 #metodo {
     margin-top: 50px;
@@ -87,21 +91,40 @@
         grid-template-columns: 40% 40%;
         li {
             color: white;
-            font-family: 'Roboto Condensed', sans-serif;
         }
+    }
+    @media screen and (max-width: 1280px) {
+        display: wrap;
+        flex-direction: wrap;
+        flex-wrap: wrap;
+        li {
+            color: white;
+        }
+        
     } 
     
 }
 .postal {
+    @media screen and (max-width: 1280px) {
+        width: 80%;
+    }
     width: 30%;
+    margin-right: none;
 }
 .hacemos3 {
     @media screen and (min-width: 1280px) {
         color: white;
-        font-family: 'Roboto Condensed', sans-serif;
         display: flex;
         li {
             margin-right: 200px ;
+        }
+        
+    }
+    @media screen and (max-width: 1280px) {
+        color: white;
+        display: flex;
+        li {
+            margin-right: 10px;
         }
         
     }
@@ -124,6 +147,22 @@
             display: flex;
             justify-content: center;
             text-align: center;
+        }
+    }
+    @media screen and (max-width:1280px) {
+        
+        ul {
+            width: 90%;
+            li {
+                width: 90%;
+                margin-top: 15px;
+                select {
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        .transferencia {
+            width: 100%;
         }
     }
     

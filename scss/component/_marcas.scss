@@ -6,10 +6,29 @@
     .titulom {
         color: white;
         text-align: center;
-        font-family:'Roboto Condensed', sans-serif;
         font-size: 60px;
         text-decoration: overline;
     }
+    @media screen and (max-width: 1280px) {
+        ul {
+            li {
+                .marcas-item {
+                    margin-top: 80px;
+                    display: flex;
+                    justify-content: center;
+                    
+                    .marcas-item2 {
+                        width: 80%;
+                        img {
+                            height: fit-content;
+                            width: fit-content;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }     
     @media screen and (min-width: 1280px) {
         ul {
             display: grid;
@@ -24,7 +43,6 @@
                 margin-bottom: 60px;
                 font-size: 75px;
                 color: white;
-                font-family: 'Roboto Condensed', sans-serif;
             }
             .marcas-item {
                 margin-top: 80px;
@@ -37,10 +55,7 @@
                         height: 600px;
                     }
                 }
-            }
-            
-            
-            
+            }                         
         }
     }
 }
