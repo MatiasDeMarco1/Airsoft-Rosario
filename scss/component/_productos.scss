@@ -1,4 +1,4 @@
-
+@import "../base/extends";
 .categorias {
     @media screen and (min-width: 1280px) {
         margin-top: 80px;
@@ -33,7 +33,8 @@
             }
         }
         .selec {
-            @extend %flex-center;
+            justify-content: center;
+            display: flex;
             select {
                 margin-top: 10px;
                 margin-left: 20px;

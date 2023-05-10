@@ -1,4 +1,4 @@
-
+@import "../base/extends";
 
 
 header {
@@ -9,7 +9,8 @@ header {
         border-radius: 50px;
         padding-top: 20px;
         ul {
-            @extend %flex-space;
+            justify-content: space-between;
+            display: flex;
             align-items: center;
             li {
                 justify-content: center;

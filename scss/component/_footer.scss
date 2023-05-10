@@ -1,6 +1,5 @@
 
-
-
+@import "../base/extends";
 footer {
     @media screen and (min-width: 1280px) {
         margin-top: 200px;
@@ -12,7 +11,8 @@ footer {
             margin-top: 40px;
         }
         .pago1 {
-            @extend %flex-center;
+            display: flex;
+            justify-content: center;
             img {
                 display:inline-block;
                 justify-content: space-between;
@@ -23,7 +23,8 @@ footer {
             }
         }
         ul {
-            @extend %flex-center;
+            display: flex;
+            justify-content: center;
             li {
                 margin: 0 10px;
                 img{
@@ -43,7 +44,8 @@ footer {
             
         }
         .pago1 {
-            @extend %flex-center;
+            justify-content: center;
+            display: flex;
             img {
                 display: inline-block;
                 border-radius: 10px;
@@ -53,7 +55,8 @@ footer {
             }
         }
         ul {
-            @extend %flex-center;
+            display: flex;
+            justify-content: center;
             li {
                 margin: 0 10px;
                 img{

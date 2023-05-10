@@ -1,5 +1,5 @@
 
-
+@import "../base/extends";
 .marcas {
     margin-top: 80px;
     text-align: center;
@@ -8,8 +8,8 @@
             li {
                 .marcas-item {
                     margin-top: 80px;
-                    @extend %flex-center;
-                    
+                    justify-content: center;
+                    display: flex;
                     .marcas-item2 {
                         width: 80%;
                         img {

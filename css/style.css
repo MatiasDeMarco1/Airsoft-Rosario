@@ -1,23 +1,968 @@
-/* Error: From line 15, column 13 of scss\component\_footer.scss: 
- *    ╷
- * 15 │             @extend %flex-center;
- *    │             ^^^^^^^^^^^^^^^^^^^^
- *    ╵
- * You may not @extend the same selector from within different media queries.
- *    ,
- * 46 |             @extend %flex-center;
- *    |             ^^^^^^^^^^^^^^^^^^^^
- *    '
- *   scss\component\_footer.scss 46:13  @import
- *   scss\style.scss 13:9               root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: From line 15, column 13 of scss\\component\\_footer.scss: \a    \2577 \a 15 \2502              @extend %flex-center;\d\a    \2502              ^^^^^^^^^^^^^^^^^^^^\a    \2575 \aYou may not @extend the same selector from within different media queries.\a    \2577 \a 46 \2502              @extend %flex-center;\d\a    \2502              ^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\component\\_footer.scss 46:13  @import\a   scss\\style.scss 13:9               root stylesheet";
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Condensed", sans-serif;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carritop .carritop2 figure, .carritop, .marcas ul li .marcas-item, .logo1 {
+  justify-content: center;
+  display: flex;
+}
+
+.subtotal, .marcas ul li h2, .hacemos1, .titulom, .titulo, .tituloc {
+  text-decoration: overline;
+}
+
+@media screen and (min-width: 1280px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding-top: 20px;
+  }
+  header ul {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  header ul li {
+    justify-content: center;
+    padding: 500px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+  }
+  header ul li .buscador {
+    position: relative;
+  }
+  header ul li .buscador input {
+    width: 300px;
+    padding: 7px;
+    padding-right: 30px;
+    border-radius: 9px 0 0 9px;
+    border: 0;
+    background-color: rgb(161, 161, 161);
+    font-size: 1rem;
+  }
+  header ul li .buscador button {
+    background-color: rgb(88, 88, 88);
+    padding: 10px;
+    position: absolute;
+    border: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 0 5px 5px 0;
+    color: #FFF;
+    cursor: pointer;
+  }
+  header ul li .buscador button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  header ul li .carrito {
+    width: 25px;
+  }
+  header .btn1 {
+    font-size: large;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px;
+  }
+  header .btn1m button {
+    padding: 0px 30px;
+    border: none;
+    background-color: transparent;
+  }
+  header #btn1 :hover {
+    border-bottom: 1px solid white;
+  }
+}
+
+.carritop .carritop2 figure, .carritop, .marcas ul li .marcas-item, .logo1 {
+  justify-content: center;
+  display: flex;
+}
+
+.subtotal, .marcas ul li h2, .hacemos1, .titulom, .titulo, .tituloc {
+  text-decoration: overline;
+}
+
+@media screen and (max-width: 1280px) {
+  header .celu_menu {
+    display: flex;
+  }
+  header .celu_menu ul li .btn1 {
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  header .celu_menu ul li #btnc {
+    padding: 0;
+  }
+  header .celu_menu ul li #btn1 :hover {
+    border-bottom: 1px solid white;
+  }
+  header .celu_menu ul li .btn1m button {
+    border: none;
+    background-color: transparent;
+  }
+  header .celu_menu ul li .carrito {
+    width: 25px;
+  }
+  header .celu_menu ul li .buscador {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  header .celu_menu ul li form .search {
+    color: #5B5C5E;
+    margin: #5B5C5E;
+  }
+}
+
+.carritop .carritop2 figure, .carritop, .marcas ul li .marcas-item, .logo1 {
+  justify-content: center;
+  display: flex;
+}
+
+.subtotal, .marcas ul li h2, .hacemos1, .titulom, .titulo, .tituloc {
+  text-decoration: overline;
+}
+
+@media screen and (min-width: 1280px) {
+  footer {
+    margin-top: 200px;
+    background-color: rgba(166, 166, 166, 0.7137254902);
+    text-align: center;
+    padding-top: 40px;
+  }
+  footer .consumidor {
+    display: inline-block;
+    margin-top: 40px;
+  }
+  footer .pago1 {
+    display: flex;
+    justify-content: center;
+  }
+  footer .pago1 img {
+    display: inline-block;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 80px;
+    width: 80px;
+    height: 40px;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
+  footer ul li {
+    margin: 0 10px;
+  }
+  footer ul li img {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  footer {
+    margin-top: 200px;
+    background-color: rgba(166, 166, 166, 0.7137254902);
+    text-align: center;
+    padding-top: 40px;
+  }
+  footer .consumidor {
+    display: inline-block;
+    margin-top: 40px;
+  }
+  footer .pago1 {
+    justify-content: center;
+    display: flex;
+  }
+  footer .pago1 img {
+    display: inline-block;
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+    margin: auto;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
+  footer ul li {
+    margin: 0 10px;
+  }
+  footer ul li img {
+    width: 60px;
+  }
+}
+
+.redes-sociales {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.redes-sociales li {
+  margin-top: 90px;
+  display: inline-block;
+}
+.redes-sociales li a img {
+  width: 80px;
+  background-color: rgba(255, 255, 255, 0.3490196078);
+  border: solid black;
+  padding: 20px 20px;
+  border-radius: 40%;
+}
+.redes-sociales li a img:hover {
+  box-shadow: 0 10px 20px white;
+}
+
+@media screen and (min-width: 1280px) {
+  .logo1 .logo {
+    width: 160px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .logo1 {
+    margin-top: 50px;
+  }
+  .logo1 .logo {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .logop {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .logop img {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .logop {
+    display: flex;
+    justify-content: center;
+  }
+  .logop img {
+    width: 45%;
+  }
+}
+
+.logoc1 {
+  display: flex;
+  justify-content: center;
+}
+.logoc1 .logoc {
+  width: 180px;
+}
+@media screen and (max-width: 1280px) {
+  .logoc1 .logoc {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .logitoc {
+    display: flex;
+    justify-content: end;
+  }
+  .logitoc img {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .logitoc {
+    display: flex;
+    justify-content: center;
+  }
+  .logitoc img {
+    width: 90%;
+  }
+}
+
+.tituloc {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.titulo {
+  margin-bottom: 60px;
+  font-size: 75px;
+  color: white;
+}
+
+.titulom {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+.hacemos1 {
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.hacemos {
+  color: white;
+  margin-top: 20px;
+}
+
+.carritop .carritop2 figure, .carritop, .marcas ul li .marcas-item, .logo1 {
+  justify-content: center;
+  display: flex;
+}
+
+.subtotal, .marcas ul li h2, .tituloc, .titulo, .titulom, .hacemos1 {
+  text-decoration: overline;
+}
+
+@media screen and (min-width: 1280px) {
+  .carru {
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 550px;
+    border: solid white;
+  }
+  .carru img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+  }
+  .carru img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+}
+
+.carrucelu {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 1280px) {
+  .productos-destacados {
+    margin-top: 80px;
+    text-align: center;
+  }
+}
+.productos-destacados ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+}
+.productos-destacados ul li {
+  border-radius: 10px;
+}
+.productos-destacados ul li:hover {
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.7);
+}
+.productos-destacados ul li img {
+  max-width: 100%;
+  height: 275px;
+  flex-grow: 1;
+  object-fit: cover;
+  border-radius: 18px 18px 0 0;
+  transition: all 0.5s;
+}
+.productos-destacados ul li img:hover {
+  transform: scale(1.1);
+}
+.productos-destacados ul li figure {
+  overflow: hidden;
+}
+.productos-destacados ul li .info-producto {
+  padding: 15px 30px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  justify-content: center;
+}
+.productos-destacados ul li .info-producto .precio {
+  font-size: 18px;
+  font-weight: 900px;
+}
+.productos-destacados ul li .info-producto button {
+  border: none;
+  background: none;
+  background-color: white;
+  padding: 15px 10px;
+  cursor: pointer;
+  font-size: medium;
+}
+@media screen and (max-width: 1280px) {
+  .productos-destacados {
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    text-decoration: overline;
+  }
+  .productos-destacados h1 {
+    font-size: 50px;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    text-decoration: overline;
+  }
+  .productos-destacados .carrucc {
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  .productos-destacados .carrucc .carrucc1 {
+    width: 100%;
+  }
+  .productos-destacados .carrucc .carrucc1 figure {
+    justify-content: center;
+    display: flex;
+  }
+  .productos-destacados .carrucc .carrucc1 .info-productoc {
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+  }
+  .productos-destacados .carrucc .carrucc1 .info-productoc .precio {
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 900px;
+  }
+  .productos-destacados .carrucc .carrucc1 .info-productoc .añadir {
+    font-size: medium;
+  }
+}
+
+.carritop .carritop2 figure, .carritop, .marcas ul li .marcas-item, .logo1 {
+  justify-content: center;
+  display: flex;
+}
+
+.subtotal, .marcas ul li h2, .tituloc, .titulo, .titulom, .hacemos1 {
+  text-decoration: overline;
+}
+
+@media screen and (min-width: 1280px) {
+  .categorias {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 60% 30%;
+  }
+  .categorias ul {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .categorias ul li {
+    color: white;
+    font-size: 20px;
+  }
+  .categorias select {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 15%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .categorias {
+    margin-top: 80px;
+  }
+  .categorias ul {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .categorias ul li {
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .categorias .selec {
+    justify-content: center;
+    display: flex;
+  }
+  .categorias .selec select {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 40%;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-productop {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+  }
+  .container-productop li {
+    border-radius: 10px;
+  }
+  .container-productop li:hover {
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.7);
+  }
+  .container-productop li img {
+    max-width: 100%;
+    height: 275px;
+    flex-grow: 1;
+    object-fit: cover;
+    border-radius: 18px 18px 0 0;
+    transition: all 0.5s;
+  }
+  .container-productop li img:hover {
+    transform: scale(1.1);
+  }
+  .container-productop li figure {
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .container-productop {
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 200px;
+  }
+  .container-productop li {
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .container-productop li:hover {
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.7);
+  }
+  .container-productop li img {
+    max-width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+    border-radius: 18px 18px 0 0;
+    transition: all 0.5s;
+  }
+  .container-productop li img:hover {
+    transform: scale(1.1);
+  }
+  .container-productop li img figure {
+    overflow: hidden;
+  }
+}
+
+.info-producto {
+  padding: 15px 30px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  justify-content: center;
+}
+.info-producto .precio {
+  font-size: 18px;
+  font-weight: 900px;
+}
+.info-producto button {
+  border: none;
+  background: none;
+  background-color: white;
+  padding: 15px 10px;
+  cursor: pointer;
+  font-size: medium;
+}
+
+@media screen and (min-width: 1280px) {
+  .catalogo {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 120px;
+  }
+}
+
+.carritop .carritop2 figure, .carritop, .marcas ul li .marcas-item, .logo1 {
+  justify-content: center;
+  display: flex;
+}
+
+.subtotal, .marcas ul li h2, .tituloc, .titulo, .titulom, .hacemos1 {
+  text-decoration: overline;
+}
+
+.marcas {
+  margin-top: 80px;
+  text-align: center;
+}
+@media screen and (max-width: 1280px) {
+  .marcas ul li .marcas-item {
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+  }
+  .marcas ul li .marcas-item .marcas-item2 {
+    width: 80%;
+  }
+  .marcas ul li .marcas-item .marcas-item2 img {
+    height: fit-content;
+    width: fit-content;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .marcas ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+.marcas ul li {
+  margin-top: 100px;
+}
+.marcas ul li h2 {
+  margin-bottom: 60px;
+  font-size: 75px;
+  color: white;
+}
+.marcas ul li .marcas-item {
+  margin-top: 80px;
+}
+.marcas ul li .marcas-item .marcas-item2 {
+  width: 80%;
+}
+.marcas ul li .marcas-item .marcas-item2 img {
+  width: 550px;
+  height: 600px;
+}
+
+.carritop .carritop2 figure, .carritop, .logo1, .marcas ul li .marcas-item {
+  justify-content: center;
+  display: flex;
+}
+
+.subtotal, .tituloc, .titulo, .titulom, .hacemos1, .marcas ul li h2 {
+  text-decoration: overline;
+}
+
+@media screen and (min-width: 1280px) {
+  .consultac {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+  .consultac .consultac1 ul {
+    margin-top: 80px;
+  }
+  .consultac .consultac1 ul li {
+    margin-top: 40px;
+  }
+  .consultac .consultac1 ul li .input-group-text {
+    font-size: 40px;
+  }
+  .consultac .consultac2 .mapa {
+    text-align: center;
+    margin-top: 80px;
+  }
+  .consultac .consultac2 .mapa iframe {
+    width: 70%;
+    height: 40rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .consultac {
+    margin-top: 100px;
+  }
+  .consultac .consultac1 h1 {
+    font-size: 50px;
+  }
+  .consultac .consultac1 ul {
+    margin-top: 60px;
+    width: 100%;
+    margin-right: 10px;
+  }
+  .consultac .consultac1 ul li {
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .consultac .consultac1 ul li .input-group-text {
+    font-size: 50px;
+  }
+  .consultac .consultac1 ul li button {
+    width: 90px;
+  }
+  .consultac .consultac2 {
+    margin-top: 90px;
+  }
+  .consultac .consultac2 h2 {
+    font-size: 40px;
+  }
+  .consultac .consultac2 .mapa iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .redes-grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+  .redes-grid ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .redes-grid ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .redes-grid {
+    margin-top: 120px;
+  }
+  .redes-grid ul {
+    text-align: start;
+  }
+  .redes-grid ul li {
+    margin: auto;
+    display: list-item;
+  }
+  .redes-grid ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto;
+  }
+  .redes-grid .logoc {
+    margin-top: 100px;
+  }
+}
+
+.carritop {
+  margin-top: 100px;
+}
+@media screen and (min-width: 1280px) {
+  .carritop .carritop2 {
+    width: 20%;
+  }
+}
+.carritop .carritop2 {
+  width: 80%;
+}
+.carritop .carritop2 .info-productoc {
+  padding: 15px 30px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.carritop .carritop2 .info-productoc .precio {
+  font-size: 18px;
+  font-weight: 900px;
+}
+.carritop .carritop2 .info-productoc button {
+  border: none;
+  background: none;
+  background-color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: medium;
+}
+
+.subtotal {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+@media screen and (min-width: 1280px) {
+  .subtotal {
+    font-size: 60px;
+  }
+}
+
+.gridcarrito {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 60% 30%;
+}
+@media screen and (min-width: 1280px) {
+  .gridcarrito {
+    margin-top: 100px;
+  }
+  .gridcarrito ul li {
+    width: 40%;
+  }
+}
+.gridcarrito ul {
+  width: 90%;
+}
+.gridcarrito ul li {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#metodo {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 1280px) {
+  .gridopcion {
+    display: grid;
+    grid-template-columns: 40% 40%;
+  }
+  .gridopcion li {
+    color: white;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .gridopcion {
+    display: wrap;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+  }
+  .gridopcion li {
+    color: white;
+  }
+}
+
+.postal {
+  width: 30%;
+  margin-right: none;
+}
+@media screen and (max-width: 1280px) {
+  .postal {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hacemos3 {
+    color: white;
+    display: flex;
+  }
+  .hacemos3 li {
+    margin-right: 200px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .hacemos3 {
+    color: white;
+    display: flex;
+  }
+  .hacemos3 li {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gridcarrito2 {
+    display: grid;
+    grid-template-columns: 30% 60%;
+  }
+  .gridcarrito2 ul li {
+    margin-top: 10px;
+  }
+  .gridcarrito2 ul li select {
+    margin-bottom: 110px;
+  }
+  .gridcarrito2 .transferencia {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .gridcarrito2 ul {
+    width: 90%;
+  }
+  .gridcarrito2 ul li {
+    width: 90%;
+    margin-top: 15px;
+  }
+  .gridcarrito2 ul li select {
+    margin-bottom: 50px;
+  }
+  .gridcarrito2 .transferencia {
+    width: 100%;
+  }
+}
+
+.archivo {
+  width: 100%;
+}
+
+.logo1, .marcas ul li .marcas-item, .carritop, .carritop .carritop2 figure {
+  justify-content: center;
+  display: flex;
+}
+
+.tituloc, .titulo, .titulom, .hacemos1, .marcas ul li h2, .subtotal {
+  text-decoration: overline;
+}
+
+body {
+  background: url(../imagenes/Fondo.png);
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (min-width: 1280px) {
+  body .checkbtn {
+    display: none;
+  }
+  body #check {
+    display: none;
+  }
+  body .celu {
+    display: none;
+  }
+  body .carrucelu {
+    display: none;
+  }
+  body .carrucc {
+    display: none;
+  }
+}
+@media screen and (max-width: 1280px) {
+  body .minavbar {
+    display: none;
+  }
+  body .container-producto {
+    display: none;
+  }
+  body .carru {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

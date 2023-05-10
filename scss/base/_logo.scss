@@ -1,7 +1,6 @@
 
 .logo1 {
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
     @media screen  and (min-width: 1280px){
         .logo {
             width: 160px;

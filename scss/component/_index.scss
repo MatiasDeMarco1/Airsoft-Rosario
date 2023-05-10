@@ -1,4 +1,4 @@
-
+@import "../base/extends";
 .carru {
     @media screen and (min-width: 1280px) {
         margin-top: 50px;
@@ -91,16 +91,18 @@
             margin-top: 80px;  
             text-align: center;
             color: white;
-            @extend %text-decoration;
+            text-decoration: overline;
         }
         .carrucc {
             margin-top: 100px;
-            @extend %flex-center;
+            justify-content: center;
+            display: flex;
             width: 100%;
             .carrucc1 {
                 width: 100%;
                 figure {
-                    @extend %flex-center;
+                    justify-content: center;
+                    display: flex;
                 }
                 .info-productoc{
                     padding: 15px 30px;
