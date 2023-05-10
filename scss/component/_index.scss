@@ -91,18 +91,16 @@
             margin-top: 80px;  
             text-align: center;
             color: white;
-            text-decoration: overline;
+            @extend %text-decoration;
         }
         .carrucc {
             margin-top: 100px;
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             width: 100%;
             .carrucc1 {
                 width: 100%;
                 figure {
-                    display: flex;
-                    justify-content: center;
+                    @extend %flex-center;
                 }
                 .info-productoc{
                     padding: 15px 30px;

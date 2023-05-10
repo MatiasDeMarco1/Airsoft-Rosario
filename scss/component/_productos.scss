@@ -33,8 +33,7 @@
             }
         }
         .selec {
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             select {
                 margin-top: 10px;
                 margin-left: 20px;

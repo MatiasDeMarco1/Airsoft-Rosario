@@ -12,8 +12,7 @@ footer {
             margin-top: 40px;
         }
         .pago1 {
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             img {
                 display:inline-block;
                 justify-content: space-between;
@@ -24,8 +23,7 @@ footer {
             }
         }
         ul {
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             li {
                 margin: 0 10px;
                 img{
@@ -45,8 +43,7 @@ footer {
             
         }
         .pago1 {
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             img {
                 display: inline-block;
                 border-radius: 10px;
@@ -56,8 +53,7 @@ footer {
             }
         }
         ul {
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             li {
                 margin: 0 10px;
                 img{

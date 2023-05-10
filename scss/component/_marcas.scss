@@ -8,8 +8,7 @@
             li {
                 .marcas-item {
                     margin-top: 80px;
-                    display: flex;
-                    justify-content: center;
+                    @extend %flex-center;
                     
                     .marcas-item2 {
                         width: 80%;
@@ -33,15 +32,14 @@
         li {
             margin-top: 100px;
             h2 {
-                text-decoration: overline;
+                @extend %text-decoration;
                 margin-bottom: 60px;
                 font-size: 75px;
                 color: white;
             }
             .marcas-item {
                 margin-top: 80px;
-                display: flex;
-                justify-content: center;
+                @extend %flex-center;
                 .marcas-item2 {
                     width: 80%;
                     img {

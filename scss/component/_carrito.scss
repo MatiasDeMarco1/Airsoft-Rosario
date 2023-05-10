@@ -2,8 +2,7 @@
 
 .carritop {
     margin-top: 100px;
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
     @media screen and (min-width: 1280px) {
         .carritop2 {
             width: 20%;
@@ -12,8 +11,7 @@
     .carritop2 {
         width: 80%;
         figure {
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
         }
         .info-productoc {
             padding: 15px 30px;
@@ -42,7 +40,7 @@
     @media screen and (min-width: 1280px) {
         font-size: 60px;
     }
-    text-decoration: overline;
+    @extend %text-decoration;
     color: white;
     text-align: center;
     font-size: 30px;
@@ -136,8 +134,7 @@
             }
         }
         .transferencia {
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             text-align: center;
         }
     }

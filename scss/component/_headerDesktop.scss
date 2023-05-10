@@ -9,8 +9,7 @@ header {
         border-radius: 50px;
         padding-top: 20px;
         ul {
-            display: flex;
-            justify-content: space-between;
+            @extend %flex-space;
             align-items: center;
             li {
                 justify-content: center;
