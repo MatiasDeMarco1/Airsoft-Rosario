@@ -160,7 +160,7 @@ ul {
     display: inline-block;
     justify-content: space-between;
     border-radius: 10px;
-    margin: 80px;
+    margin: auto;
     width: 80px;
     height: 40px;
   }
