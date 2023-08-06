@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9bc4bf4841.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="shortcut icon" href="../imagenes/icon.ico" type="image/x-icon">
     <meta name="description" content="Hacemos envio al menor costo desde Rosario a todo el pais, podes retirar sin cargo en nuestra sucursal de Lunes a Viernes de 6 hasta las 18hs.">
     <meta name="keywords" content="airsofts, airsoft helmets, airsoft accessories, Airsoft, compra online, rosario, argentina, chalecos, marcadoras, cascos, envio a todo el pais, camuflaje, guantes tacticos, cinturones, parches, replicas reales, Heckler & Koch, Eagle Caw, GyG Airsoft, M Tech, Classic Army, Mechanix, A&K,Helicon Tex ">
@@ -58,7 +59,7 @@
                 </li>
                 <li>
                     <button type="button" class="btn">
-                        <a href="../secciones/Carrito.html"class ="btn"><img src="../imagenes/Carrito.png" alt="Carrito Airsoft" Class = "carrito"></a><span class="badge text-bg-secondary">0</span>
+                        <a href="../secciones/Carrito.html"class ="btn"><img src="../imagenes/Carrito.png" alt="Carrito Airsoft" Class = "carrito"></a><span class="badge text-bg-secondary" id="contadorCarrito1">0</span>
                     </button>
                 </li>
             </ul>
@@ -100,7 +101,7 @@
                     </li>
                     <li>
                         <button type="button" class="btn" id="btnc">
-                            <a href="../secciones/Carrito.html"class ="btn" id="btnc"><img src="../imagenes/Carrito.png" alt="Carrito Airsoft" Class = "carrito"></a><span class="badge text-bg-secondary">0</span>
+                            <a href="../secciones/Carrito.html"class ="btn" id="btnc"><img src="../imagenes/Carrito.png" alt="Carrito Airsoft" Class = "carrito"></a><span class="badge text-bg-secondary" id="contadorCarrito2">0</span>
                         </button>
                     </li>
                 </ul>
@@ -117,57 +118,7 @@
     <section>       
         <div class="carritop">
             <div id="carru10" class="carousel slide carritop2">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <figure>
-                            <img src="../imagenes/Borcego.png" alt="Borcego Airsoft" height="300px" width="300px">
-                        </figure>
-                        <div class="info-productoc">
-                            <h2>Borcego</h2>
-                            <p class="precio">$$$$$</p>
-                            <button class="añadir"> Eliminar producto</button>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <figure>
-                            <img src="../imagenes/Casco.png" alt="Casco Airsoft" height="300px" width="300px">
-                        </figure>
-                        <div class="info-productoc">
-                            <h2>Casco</h2>
-                            <p class="precio">$$$$$</p>
-                            <button class="añadir"> Eliminar producto</button>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <figure>
-                            <img src="../imagenes/Marcadora.png" alt="Marcadora Airsoft" height="300px" width="300px">
-                        </figure>
-                        <div class="info-productoc">
-                            <h2>Marcadora</h2>
-                            <p class="precio">$$$$$</p>
-                            <button class="añadir"> Eliminar producto</button>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <figure>
-                            <img src="../imagenes/Pistola.png" alt="Pistola Airsoft" height="300px" width="300px">
-                        </figure>
-                        <div class="info-productoc">
-                            <h2>Marcadora Pistola</h2>
-                            <p class="precio">$$$$$</p>
-                            <button class="añadir"> Eliminar producto</button>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <figure>
-                            <img src="../imagenes/cinturon.png" alt="cinturon Airsoft" height="300px" width="300px">
-                        </figure>
-                        <div class="info-productoc">
-                            <h2>Cinturon</h2>
-                            <p class="precio">$$$$$</p>
-                            <button class="añadir"> Eliminar producto</button>
-                        </div>
-                    </div>
+                <div class="carousel-inner" id="carritoSape">
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carru10" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -179,10 +130,38 @@
                 </button>
             </div>
         </div>
-        <h2 class="subtotal">Subtotal: $XXX XXX</h2>
+        <h2 class="subtotal" id="subtotal">Subtotal: $0</h2>
     </section>
     <section class="gridcarrito">
         <ul class="texto">
+            <div class="divsito">
+                <ul class="hacemos3">
+                    <li>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Debito
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Credito
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                            <label class="form-check-label" for="flexRadioDefault3">
+                                Transferencia
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
             <li class="input-group">
                 <div class="input-group flex-nowrap">
                     <span class="input-group-text" id="addon-wrapping">&#128100</span>
@@ -201,26 +180,56 @@
                     <input type="number" class="form-control" placeholder="Número de telefono" aria-label="Número de telefono" aria-describedby="addon-wrapping">
                 </div>
             </li>
+            <li>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">	&#128179;</span>
+                    <input type="number" class="form-control" placeholder="XXXX XXXX XXXX XXXX " aria-label="XXXX XXXX XXXX XXXX" aria-describedby="addon-wrapping">
+                </div>
+            </li>
+            <li>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">&#128100;</span>
+                    <input type="text" class="form-control" placeholder="Nombre y Apellido" aria-label="Nombre y Apellido" aria-describedby="addon-wrapping">
+                </div>
+            </li>
+            <li>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">	&#128274;</span>
+                    <input type="number" class="form-control" placeholder="Cod de seguridad" aria-label="Cod de seguridad" aria-describedby="addon-wrapping">
+                </div>
+            </li>
+            <li>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">	&#128198;</span>
+                    <input type="number" class="form-control" placeholder="xx/xx" aria-label="xx/xx" aria-describedby="addon-wrapping">
+                </div>
+            </li>
+            <li>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccione cantidad de cuotas</option>
+                    <option value="1">3 Cuotas</option>
+                    <option value="2">6 Cuotas</option>
+                    <option value="3">12 Cuotas</option>
+                </select>
+            </li>
         </ul>
-        <div class="logitoc">
-            <img src="../imagenes/Logo.png" alt="Logo Airsoft" class = "logoc2" >
-        </div>
+        
     </section>
     <section>
         <h2 class="hacemos1">Hacemos envios a todo el pais, ingrese su codigo postal y se le agregara el costo de envio</h2>
         <ul class="gridopcion">
             <li class="opcion">
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label " for="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault5" onchange="calcularPrecio()" value="0">
+                    <label class="form-check-label " for="flexRadioDefault5">
                         Retiro en el local
                     </label>
                 </div>
             </li>
             <li class="opcion">
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label " for="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault6" onchange="calcularPrecio()" value="2000">
+                    <label class="form-check-label " for="flexRadioDefault6">
                         Envio a domicilio
                     </label>
                 </div>
@@ -230,69 +239,8 @@
                 </div>
             </li>
         </ul>
-        <h1 class="hacemos">TOTAL: $XXX XXX</h1>
-        <h2 class="hacemos" id="metodo">Seleccione su metodo de pago</h2>
-        <ul class="hacemos3">
-            <li>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        Debito
-                    </label>
-                </div>
-            </li>
-            <li>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        Credito
-                    </label>
-                </div>
-            </li>
-            <li>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        Transferencia
-                    </label>
-                </div>
-            </li>
-        </ul>
+        <h1 class="hacemos" id="total">TOTAL: $0</h1>
         <div class="gridcarrito2">
-            <ul>
-                <li>
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="addon-wrapping">	&#128179;</span>
-                        <input type="text" class="form-control" placeholder="XXXX XXXX XXXX XXXX " aria-label="XXXX XXXX XXXX XXXX" aria-describedby="addon-wrapping">
-                    </div>
-                </li>
-                <li>
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="addon-wrapping">&#128100;</span>
-                        <input type="text" class="form-control" placeholder="Nombre y Apellido" aria-label="Nombre y Apellido" aria-describedby="addon-wrapping">
-                    </div>
-                </li>
-                <li>
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="addon-wrapping">	&#128274;</span>
-                        <input type="number" class="form-control" placeholder="Cod de seguridad" aria-label="Cod de seguridad" aria-describedby="addon-wrapping">
-                    </div>
-                </li>
-                <li>
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="addon-wrapping">	&#128198;</span>
-                        <input type="text" class="form-control" placeholder="xx/xx" aria-label="xx/xx" aria-describedby="addon-wrapping">
-                    </div>
-                </li>
-                <li>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione cantidad de cuotas</option>
-                        <option value="1">3 Cuotas</option>
-                        <option value="2">6 Cuotas</option>
-                        <option value="3">12 Cuotas</option>
-                    </select>
-                </li>
-            </ul>
             <div class="transferencia">
                 <ul>
                     <li>
@@ -310,6 +258,7 @@
                 </ul>
             </div>
         </div>
+        <button class="btn btn-primary" type="submit" id="compraFinalizar">Finalizar Compra</button>
         <h3 class="hacemos">Si usted llegase a tener algún inconveniente con el pago, no dude en contactarnos</h3>
     </section>
     <section>
@@ -349,5 +298,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="/Js/carrito.js"></script>
 </body>
 </html>

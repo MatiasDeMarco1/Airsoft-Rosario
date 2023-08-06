@@ -1,0 +1,82 @@
+[
+    {
+        "nombre":"Casco",
+        "precio": 25000,
+        "id": 1,
+        "cantidad": 1,
+        "categoria": "proteccion",
+        "imagen": "../imagenes/Casco.png"
+    },
+    {
+        "nombre":"Chaleco",
+        "precio": 50000,
+        "id": 2,
+        "cantidad": 1,
+        "categoria": "proteccion",
+        "imagen": "../imagenes/chaleco.png"
+    },
+    {
+        "nombre":"Cinturon",
+        "precio": 10000,
+        "id": 3,
+        "cantidad": 1,
+        "categoria": "cinturones",
+        "imagen": "../imagenes/cinturon.png"
+    },
+    {
+        "nombre":"Marcadora",
+        "precio": 35000,
+        "id": 4,
+        "cantidad": 1,
+        "categoria": "replicas",
+        "imagen": "../imagenes/Marcadora.png"
+    },
+    {
+        "nombre":"Pistola",
+        "precio": 20000,
+        "id": 5,
+        "cantidad": 1,
+        "categoria": "replicas",
+        "imagen": "../imagenes/Pistola.png"
+    },
+    {
+        "nombre":"Borcego",
+        "precio": 16000,
+        "id": 6,
+        "cantidad": 1,
+        "categoria": "calzado",
+        "imagen": "../imagenes/Borcego.png"
+    },
+    {
+        "nombre":"BBS",
+        "precio": 3000,
+        "id": 7,
+        "cantidad": 1,
+        "categoria": "BBs",
+        "imagen": "../imagenes/bbs.png"
+    },
+    {
+        "nombre":"Parche",
+        "precio": 2000,
+        "id": 8,
+        "cantidad": 1,
+        "categoria": "parches",
+        "imagen": "../imagenes/parche.png"
+    },
+    {
+        "nombre":"Marcadora 2",
+        "precio": 36000,
+        "id": 9,
+        "cantidad": 1,
+        "categoria": "replicas",
+        "imagen": "../imagenes/marcadora2.png"
+    },
+    {
+        "nombre":"Mascara",
+        "precio": 10000,
+        "id": 10,
+        "cantidad": 1,
+        "categoria": "proteccion",
+        "imagen": "../imagenes/mascara2.png"
+    }
+]

@@ -17,6 +17,7 @@
     <meta property="og:description" content="¡Los mejores productos del Airsoft de todo el mundo podes encontrarlos al mejor precio justo ahora! Hacemos entrega a todo el pais">
     <meta property="og:creator" content="Matías De Marco">
     <meta property="og:url" content="http://airsoftrosario.epizy.com" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Airsoft Rosario | Productos | La mejor calidad </title>
@@ -58,8 +59,8 @@
                     </div>
                 </li>
                 <li>
-                    <button type="button" class="btn">
-                        <a href="../secciones/Carrito.html"class ="btn"><img src="../imagenes/Carrito.png" alt="Carrito Airsoft" Class = "carrito"></a><span class="badge text-bg-secondary">0</span>
+                    <button type="button" class="btn ">
+                        <a href="../secciones/Carrito.html"class ="btn"><img src="../imagenes/Carrito.png" alt="Carrito Airsoft" Class = "carrito"></a><span class="badge text-bg-secondary " id="contadorCarrito1">0</span>
                     </button>
                 </li>
             </ul>
@@ -96,12 +97,12 @@
                     <li>
                         <form class="d-flex buscador" role="search">
                             <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success search" type="submit">Search</button>
+                            <button class="btn btn-outline-success search contadorCarrito" type="submit">Search</button>
                         </form>
                     </li>
                     <li>
                         <button type="button" class="btn" id="btnc">
-                            <a href="../secciones/Carrito.html"class ="btn" id="btnc"><img src="../imagenes/Carrito.png" alt="Carrito Airsoft" Class = "carrito"></a><span class="badge text-bg-secondary">0</span>
+                            <a href="../secciones/Carrito.html"class ="btn" id="btnc"><img src="../imagenes/Carrito.png" alt="Carrito Airsoft" Class = "carrito"></a><span class="badge text-bg-secondary " id="contadorCarrito2">0</span>
                         </button>
                     </li>
                 </ul>
@@ -119,7 +120,7 @@
         <ul>
             <li>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="replicas">
                     <label class="form-check-label" for="flexRadioDefault1">
                         Replicas
                     </label>
@@ -127,72 +128,72 @@
             </li>
             <li>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="calzado">
+                    <label class="form-check-label" for="flexRadioDefault2">
                         Calzado
                     </label>
                 </div>
             </li>
             <li>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" value="BBs">
+                    <label class="form-check-label" for="flexRadioDefault3">
                         BBs
                     </label>
                 </div>
             </li>
             <li>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" value="accessorios">
+                    <label class="form-check-label" for="flexRadioDefault4">
                         Accesorios
                     </label>
                 </div>
             </li>
             <li>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5" value="mochilas">
+                    <label class="form-check-label" for="flexRadioDefault5">
                         Mochilas
                     </label>
                 </div>
             </li>
             <li>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6" value="indumentaria">
+                    <label class="form-check-label" for="flexRadioDefault6">
                         Indumentaria
                     </label>
                 </div>
             </li>
             <li>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7" value="proteccion">
+                    <label class="form-check-label" for="flexRadioDefault7">
                         Protección
                     </label>
                 </div>
             </li>
             <li>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault8" value="parches">
+                    <label class="form-check-label" for="flexRadioDefault8">
                         Parches
                     </label>
                 </div>
             </li>
             <li>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault9" value="cinturones">
+                    <label class="form-check-label" for="flexRadioDefault9">
                         Cinturones
                     </label>
                 </div>
             </li>
             <li>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault10" value="Herramientas">
+                    <label class="form-check-label" for="flexRadioDefault10">
                         Herramientas
                     </label>
                 </div>
@@ -203,7 +204,7 @@
             <img src="../imagenes/Logo.png" alt="Logo Airsoft" >
         </div>
         <div class="selec">
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example" id="ordenSelect">
                 <option selected>Ordenar por...</option>
                 <option value="1">A-Z</option>
                 <option value="2">Z-A</option>
@@ -212,107 +213,10 @@
             </select>
         </div>
     </section>
-    <ul class="container-productop catalogo">
-        <li class="item4234">
-            <figure>
-                <img src="../imagenes/Borcego.png" alt="Borcego Airsoft" height="300px" width="300px">
-            </figure>
-            <div class="info-producto">
-                <h2>Borcego</h2>
-                <p class="precio">$$$$$</p>
-                <button> Añadir al carrito</button>
-            </div>
-        </li>
-        <li class="item4234">
-            <figure>
-                <img src="../imagenes/Casco.png" alt="Casco Airsoft" height="300px" width="300px">
-            </figure>
-            <div class="info-producto">
-                <h2>Casco</h2>
-                <p class="precio">$$$$$</p>
-                <button> Añadir al carrito</button>
-            </div>
-        </li>
-        <li class="item4234">
-            <figure>
-                <img src="../imagenes/Marcadora.png" alt="Marcadora Airsoft" height="300px" width="300px">
-            </figure>
-            <div class="info-producto">
-                <h2>Marcadora</h2>
-                <p class="precio">$$$$$</p>
-                <button> Añadir al carrito</button>
-            </div>
-        </li>
-        <li class="item4234">
-            <figure>
-                <img src="../imagenes/Pistola.png" alt="Pistola Airsoft" height="300px" width="300px">
-            </figure>
-            <div class="info-producto">
-                <h2>Marcadora Pistola</h2>
-                <p class="precio">$$$$$</p>
-                <button> Añadir al carrito</button>
-            </div>
-        </li>
-        <li class="item4234">
-            <figure>
-                <img src="../imagenes/cinturon.png" alt="cinturon Airsoft" height="300px" width="300px">
-            </figure>
-            <div class="info-producto">
-                <h2>Cinturon</h2>
-                <p class="precio">$$$$$</p>
-                <button> Añadir al carrito</button>
-            </div>
-        </li>
-        <li class="item4234">
-            <figure>
-                <img src="../imagenes/parche.png" alt="Parche Airsoft" height="300px" width="300px">
-            </figure>
-            <div class="info-producto">
-                <h2>Parche</h2>
-                <p class="precio">$$$$$</p>
-                <button class="añadir"> Añadir al carrito</button>
-            </div>
-        </li>
-        <li class="item4234">
-            <figure>
-                <img src="../imagenes/chaleco.png" alt="chaleco Airsoft" height="300px" width="300px">
-            </figure>
-            <div class="info-producto">
-                <h2>Chaleco</h2>
-                <p class="precio">$$$$$</p>
-                <button class="añadir"> Añadir al carrito</button>
-            </div>
-        </li>
-        <li class="item4234">
-            <figure>
-                <img src="../imagenes/marcadora2.png" alt="Marcadora 2 Airsoft" height="px" width="300px">
-            </figure>
-            <div class="info-producto">
-                <h2>Marcadora 2</h2>
-                <p class="precio">$$$$$</p>
-                <button class="añadir"> Añadir al carrito</button>
-            </div>
-        </li>
-        <li class="item4234">
-            <figure>
-                <img src="../imagenes/bbs.png" alt="bbs Airsoft" height="300px" width="300px">
-            </figure>
-            <div class="info-producto">
-                <h2>Balines</h2>
-                <p class="precio">$$$$$</p>
-                <button class="añadir"> Añadir al carrito</button>
-            </div>
-        </li>
-        <li class="item4234">
-            <figure>
-                <img src="../imagenes/mascara2.png" alt="Mascara Airsoft" height="300px" width="300px">
-            </figure>
-            <div class="info-producto">
-                <h2>Mascara</h2>
-                <p class="precio">$$$$$</p>
-                <button class="añadir"> Añadir al carrito</button>
-            </div>
-        </li>
+    <ul class="container-productop catalogo" id="catalogo" >
+        <div class="spinner-border text-primary" role="status" style="display: none;" id="spinner">
+            <span class="visually-hidden">Loading...</span>
+        </div>
     </ul>
     <section>
         <ul class = "redes-sociales" >
@@ -349,6 +253,7 @@
             <img src="../imagenes/visa.png" alt="visa Airsoft" class="pago">
         </div>   
     </footer>
+    <script src="/Js/Productos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </body>

@@ -1,5 +1,8 @@
 
-
+.noHay {
+    text-align: center;
+    color: white;
+}
 .carritop {
     margin-top: 100px;
     @extend %flex-center;
@@ -57,12 +60,14 @@
         }
     }
     margin-top: 80px;
-    display: grid;
-    grid-template-columns: 60% 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     ul {
-        width: 90%;
+        flex-direction: column;
+        width: 50%;
         li {
-            width: 90%;
+            width: 100%;
             margin-top: 10px;
             margin-bottom: 10px;
         }
@@ -78,9 +83,14 @@
 .gridopcion {
     @media screen and (min-width: 1280px) {
         display: grid;
-        grid-template-columns: 40% 40%;
+        grid-template-columns: 50% 50%;
         li {
+            display: flex;
+            justify-content: center;
             color: white;
+            div {
+                margin-right: 10px;
+            }
         }
     }
     @media screen and (max-width: 1280px) {
@@ -105,9 +115,6 @@
     @media screen and (min-width: 1280px) {
         color: white;
         display: flex;
-        li {
-            margin-right: 200px ;
-        }
         
     }
     @media screen and (max-width: 1280px) {
@@ -120,11 +127,28 @@
     }
     
 }
+.divsito {
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        justify-content: center;
+        ul {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items:center ;
+        }
+    }
+    @media screen and (max-width: 1280px) {
+        display: flex;
+        ul {
+            align-items:center ;
+        }
+    }
+}
 
 .gridcarrito2{
     @media screen and (min-width: 1280px) {
-        display: grid;
-        grid-template-columns: 30% 60%;
+        display: flex;
+        justify-content: center;
         ul {
             li {
                 margin-top: 10px;

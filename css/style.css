@@ -608,6 +608,10 @@ ul {
   }
 }
 
+#mensajeNoProductos {
+  color: white;
+}
+
 .carritop .carritop2 figure, .carritop, .marcas ul li .marcas-item, .logo1 {
   justify-content: center;
   display: flex;
@@ -767,6 +771,11 @@ ul {
   }
 }
 
+.noHay {
+  text-align: center;
+  color: white;
+}
+
 .carritop {
   margin-top: 100px;
 }
@@ -812,8 +821,9 @@ ul {
 
 .gridcarrito {
   margin-top: 80px;
-  display: grid;
-  grid-template-columns: 60% 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (min-width: 1280px) {
   .gridcarrito {
@@ -824,10 +834,11 @@ ul {
   }
 }
 .gridcarrito ul {
-  width: 90%;
+  flex-direction: column;
+  width: 50%;
 }
 .gridcarrito ul li {
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -839,10 +850,15 @@ ul {
 @media screen and (min-width: 1280px) {
   .gridopcion {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 50% 50%;
   }
   .gridopcion li {
+    display: flex;
+    justify-content: center;
     color: white;
+  }
+  .gridopcion li div {
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -871,9 +887,6 @@ ul {
     color: white;
     display: flex;
   }
-  .hacemos3 li {
-    margin-right: 200px;
-  }
 }
 @media screen and (max-width: 1280px) {
   .hacemos3 {
@@ -886,9 +899,29 @@ ul {
 }
 
 @media screen and (min-width: 1280px) {
-  .gridcarrito2 {
+  .divsito {
+    display: flex;
+    justify-content: center;
+  }
+  .divsito ul {
     display: grid;
-    grid-template-columns: 30% 60%;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .divsito {
+    display: flex;
+  }
+  .divsito ul {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gridcarrito2 {
+    display: flex;
+    justify-content: center;
   }
   .gridcarrito2 ul li {
     margin-top: 10px;
