@@ -47,7 +47,7 @@ if (carritoSi){
             </figure>
             <div class="info-productoc">
                 <h2>${producto.nombre}</h2>
-                <p class="precio" id="elimino-${producto.id}">${producto.precio * producto.cantidad} x ${producto.cantidad}</p>
+                <p class="precio" id="elimino-${producto.id}">$${producto.precio * producto.cantidad * 1.21} x ${producto.cantidad}</p>
                 <button class="eliminar" id="${producto.id}"> Eliminar producto</button>
             </div>
         `
@@ -104,7 +104,7 @@ function eliminar(){
                 console.log(indice)
                 localStorage.setItem("carrito", JSON.stringify(elcarrito))
                 let modificarCantidad = document.getElementById(`elimino-${e.target.id}`)
-                modificarCantidad.innerText = `${elcarrito[indice].precio * elcarrito[indice].cantidad} x ${elcarrito[indice].cantidad}`
+                modificarCantidad.innerText = `${elcarrito[indice].precio * elcarrito[indice].cantidad * 1.21} x ${elcarrito[indice].cantidad}`
                 calcularPrecio()
                 contadorCarrito()
                 subTotalMuestro(elcarrito)
@@ -130,7 +130,7 @@ function subTotalMuestro(){
     let precioFinal1 = 0
     if (carritoSub){
         carritoSub.forEach((total) => {
-            precioFinal1 += total.precio * total.cantidad
+            precioFinal1 += total.precio * total.cantidad * 1.21
         })
         subTotalMuestro.innerText = `Subtotal: $${precioFinal1}`
     }else{
@@ -174,7 +174,7 @@ function calcularPrecio() {
     let precioFinal1 = 0
     if (carrito){
         carrito.forEach((total) => {
-            precioFinal1 += total.precio * total.cantidad
+            precioFinal1 += total.precio * total.cantidad * 1.21
         })
         let precioAgrego = 0
         if (precioFinal1 !== 0){
