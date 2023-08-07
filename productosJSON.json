@@ -5,7 +5,7 @@
         "id": 1,
         "cantidad": 1,
         "categoria": "proteccion",
-        "imagen": "../imagenes/Casco.png"
+        "imagen": "Casco.png"
     },
     {
         "nombre":"Chaleco",
@@ -13,7 +13,7 @@
         "id": 2,
         "cantidad": 1,
         "categoria": "proteccion",
-        "imagen": "../imagenes/chaleco.png"
+        "imagen": "chaleco.png"
     },
     {
         "nombre":"Cinturon",
@@ -21,7 +21,7 @@
         "id": 3,
         "cantidad": 1,
         "categoria": "cinturones",
-        "imagen": "../imagenes/cinturon.png"
+        "imagen": "cinturon.png"
     },
     {
         "nombre":"Marcadora",
@@ -29,7 +29,7 @@
         "id": 4,
         "cantidad": 1,
         "categoria": "replicas",
-        "imagen": "../imagenes/Marcadora.png"
+        "imagen": "Marcadora.png"
     },
     {
         "nombre":"Pistola",
@@ -37,7 +37,7 @@
         "id": 5,
         "cantidad": 1,
         "categoria": "replicas",
-        "imagen": "../imagenes/Pistola.png"
+        "imagen": "Pistola.png"
     },
     {
         "nombre":"Borcego",
@@ -45,7 +45,7 @@
         "id": 6,
         "cantidad": 1,
         "categoria": "calzado",
-        "imagen": "../imagenes/Borcego.png"
+        "imagen": "Borcego.png"
     },
     {
         "nombre":"BBS",
@@ -53,7 +53,7 @@
         "id": 7,
         "cantidad": 1,
         "categoria": "BBs",
-        "imagen": "../imagenes/bbs.png"
+        "imagen": "bbs.png"
     },
     {
         "nombre":"Parche",
@@ -61,7 +61,7 @@
         "id": 8,
         "cantidad": 1,
         "categoria": "parches",
-        "imagen": "../imagenes/parche.png"
+        "imagen": "parche.png"
     },
     {
         "nombre":"Marcadora 2",
@@ -69,7 +69,7 @@
         "id": 9,
         "cantidad": 1,
         "categoria": "replicas",
-        "imagen": "../imagenes/marcadora2.png"
+        "imagen": "marcadora2.png"
     },
     {
         "nombre":"Mascara",
@@ -77,6 +77,6 @@
         "id": 10,
         "cantidad": 1,
         "categoria": "proteccion",
-        "imagen": "../imagenes/mascara2.png"
+        "imagen": "mascara2.png"
     }
 ]

@@ -42,7 +42,7 @@ function spiner1(){
                 html.dataset.categoria = productos.categoria
                 html.innerHTML = `
                     <figure>
-                        <img src="${productos.imagen}" alt="imagen Producto" height="300px" width="300px">
+                        <img src="../imagenes/${productos.imagen}" alt="imagen Producto" height="300px" width="300px">
                     </figure>
                     <div class="info-producto">
                         <h2>${productos.nombre}</h2>
