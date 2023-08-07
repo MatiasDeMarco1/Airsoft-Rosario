@@ -30,7 +30,7 @@ contadorCarritoMobile()
 cargaIndex()
 cargaIndexCelu()
 function cargaIndex() {
-    fetch("../productosDestacadosJSON.json")
+    fetch("https://github.com/MatiasDeMarco1/Airsoft-Rosario/blob/main/productosDestacadosJSON.json")
     .then((response) => response.json())
     .then(destacados => {
         for (const producto of destacados){
@@ -86,7 +86,7 @@ function cargaIndex() {
     })
 }
 function cargaIndexCelu() {
-    fetch("../productosDestacadosJSON.json")
+    fetch("https://github.com/MatiasDeMarco1/Airsoft-Rosario/blob/main/productosDestacadosJSON.json")
     .then((response) => response.json())
     .then(destacados => {
         for (const producto of destacados){
