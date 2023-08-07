@@ -30,7 +30,7 @@ contadorCarritoMobile()
 cargaIndex()
 cargaIndexCelu()
 function cargaIndex() {
-    fetch("../productosDestacadosJSON.json")
+    fetch("productosDestacadosJSON.json")
     .then((response) => response.json())
     .then(destacados => {
         for (const producto of destacados){
