@@ -43,7 +43,7 @@ if (carritoSi){
         html.id =`div-${producto.id}`
         html.innerHTML = `
             <figure>
-                <img src=${producto.imagen} alt=${producto.nombre} height="300px" width="300px">
+                <img src=../imagenes/${producto.imagen} alt=${producto.nombre} height="300px" width="300px">
             </figure>
             <div class="info-productoc">
                 <h2>${producto.nombre}</h2>
