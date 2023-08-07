@@ -31,7 +31,7 @@ contadorCarritoMobile()
 function spiner1(){
     let spinner = document.getElementById('spinner')
     spinner.style.display = 'flex'
-    fetch("../json/productos.json")
+    fetch("../productos.json")
     .then((response) => response.json())
     .then(productoCarga => {
         setTimeout(()=>{
