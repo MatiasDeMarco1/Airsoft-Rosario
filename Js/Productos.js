@@ -46,7 +46,7 @@ function spiner1(){
                     </figure>
                     <div class="info-producto">
                         <h2>${productos.nombre}</h2>
-                        <p class="precio">$${productos.precio * 1.21 }</p>
+                        <p class="precio">${productos.precio * 1.21 }</p>
                         <button class="añadir" id="${productos.id}" > Añadir al carrito</button>
                     </div>
                     `
