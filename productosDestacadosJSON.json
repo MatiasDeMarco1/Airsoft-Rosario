@@ -5,7 +5,7 @@
         "id": 1,
         "cantidad": 1,
         "categoria": "proteccion",
-        "imagen": "../imagenes/Casco.png"
+        "imagen": "imagenes/Casco.png"
     },
     {
         "nombre":"Cinturon",
@@ -13,7 +13,7 @@
         "id": 3,
         "cantidad": 1,
         "categoria": "cinturones",
-        "imagen": "../imagenes/cinturon.png"
+        "imagen": "imagenes/cinturon.png"
     },
     {
         "nombre":"Marcadora",
@@ -21,7 +21,7 @@
         "id": 4,
         "cantidad": 1,
         "categoria": "replicas",
-        "imagen": "../imagenes/Marcadora.png"
+        "imagen": "imagenes/Marcadora.png"
     },
     {
         "nombre":"Pistola",
@@ -29,7 +29,7 @@
         "id": 5,
         "cantidad": 1,
         "categoria": "replicas",
-        "imagen": "../imagenes/Pistola.png"
+        "imagen": "imagenes/Pistola.png"
     },
     {
         "nombre":"Borcego",
@@ -37,6 +37,6 @@
         "id": 6,
         "cantidad": 1,
         "categoria": "calzado",
-        "imagen": "../imagenes/Borcego.png"
+        "imagen": "imagenes/Borcego.png"
     }
 ]
