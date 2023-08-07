@@ -31,7 +31,7 @@ contadorCarritoMobile()
 function spiner1(){
     let spinner = document.getElementById('spinner')
     spinner.style.display = 'flex'
-    fetch("https://github.com/MatiasDeMarco1/Airsoft-Rosario/blob/main/productosJSON.json")
+    fetch("../productosJSON.json")
     .then((response) => response.json())
     .then(productoCarga => {
         setTimeout(()=>{
