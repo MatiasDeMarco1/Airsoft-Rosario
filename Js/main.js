@@ -95,7 +95,7 @@ function cargaIndexCelu() {
             html.classList.add("carousel-item")
             html.innerHTML = `
                 <figure>
-                        <img src="${producto.imagen}" alt="${producto.nombre} Airsoft" height="300px" width="300px">
+                        <img src="imagenes/${producto.imagen}" alt="${producto.nombre} Airsoft" height="300px" width="300px">
                 </figure>
                 <div class="info-producto">
                     <h2>${producto.nombre}</h2>
